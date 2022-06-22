@@ -1,0 +1,43 @@
+#tMain
+{
+    background: #fefffe !important;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+#tMain header
+{
+    color: #119df1;
+}
+
+.text_primary
+{
+    color: #119df1;
+}
+.bg_primary
+{
+    background: #119df1;
+}
+
+.emp_dp
+{
+    width: 30px;
+    height: 30px;
+}
+
+.nav_row
+{
+    font-weight: bold;
+    height: 50px;
+}
+.nav_row:hover
+{
+    color: #119df1 !important;
+    font-weight: bolder;
+}
+
+.xbody
+{
+    background: #f4f6f9 !important;
+}

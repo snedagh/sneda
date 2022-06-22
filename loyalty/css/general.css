@@ -1,0 +1,640 @@
+body
+{
+    height: 100vh !important;
+    overflow: hidden;   
+}
+
+.login_btn
+{
+    height: 50px;
+    width: 50px;
+}
+
+.btnxx
+{
+    height: 100px;
+    width: 100px;
+    background-color: #BBDEFB !important;
+}
+
+.btnxx:hover
+{
+    height: 100px;
+    width: 100px;
+    background-color: #FFFFFF !important;
+}
+
+.bg-loyalty
+{
+    background: #9B59B6 !important;
+    color: #fcf8e3 !important;
+}
+
+.bg-success-light
+{
+    /* background-color: #5a9154d2 !important; */
+}
+
+.registered
+{
+    color: #177a56 !important;
+}
+
+.t_but
+{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+main
+{
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.btn_main
+{
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.t_small
+{
+    font-size: small !important;
+}
+
+.t-nm 
+{
+    font-size: medium;
+}
+
+.c_small
+{
+    height: 10px !important;
+    width: 10px !important;
+}
+.o-hide
+{
+    overflow: hidden !important;
+}
+.o-auto
+{
+    overflow: auto !important;
+}
+.pointer
+{
+    cursor: pointer;
+}
+header
+{
+    height: 8% !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+.h_main
+{
+    background-color: #222230;
+    color: #f1f1f1;
+}
+
+.msg_icon
+{
+    height: 32px;
+    width: 32px;
+}
+
+.c_hover:hover
+{   
+    background-color: #ccc;
+}
+
+article
+{
+    width: 100% !important;
+    height: 92% !important;
+}
+.ico-sm
+{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.ico-nm
+{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.ico-lg
+{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.btn-nav
+{
+    color: #f1f1f1;
+    height: 10% !important;
+    font-size: 15px;
+}
+
+.btn-nav-active
+{
+    background-color: #222230;
+    color: #84E2FE !important;
+    font-weight: bolder;
+    height: 10% !important;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: #84E2FE;
+}
+
+.btn-nav:hover
+{
+    background-color: #43425D;
+    color: #84E2FE;
+    font-weight: bolder;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: #84E2FE;
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .no-gutter > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+address
+{
+    font-size: 10px !important;
+    font-style: italic;
+    margin-bottom: 0px !important;
+}
+
+.m_button
+{
+    height: 100px !important;
+}
+
+.m_button button
+{
+    background-color: #E2E2E2;
+    color: #0D93BB;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.m_button button:hover
+{
+    background-color: #0D0E20;
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
+.c_th
+{
+    font-size: 15px !important;
+    color: #A3A6B4 !important;
+    border: 0!important
+}
+.c_tr_head
+{
+    background-color: #F5F6FA !important;
+    border: none !important;
+    border: 0!important
+}
+
+.c_tr_body
+{
+    /*background-color: #F5F6FA !important;*/
+    border: none !important;
+    border: 0!important;
+}
+
+.c_td
+{
+    font-size: 15px !important;
+    color: #333 !important;
+    border: 0!important
+}
+
+.cname
+{
+    letter-spacing: 2px;
+}
+
+.head
+{
+    height: 8%;
+    width: 100%;
+}
+
+.head span
+{
+    font-size: 25px !important;
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+}
+
+.rcard
+{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: #222230 5px 5px 8px;
+}
+
+.cust_shadow
+{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.cust_shadow_innser
+{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    border: inset !important;
+    background: #e3e3e3;
+    color: #000000;
+
+}
+
+.cust_shadow_innser:focus
+{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    border: inset !important;
+    background: #F57E82 !important;
+    color: #000000 !important;
+
+}
+
+textarea
+{
+    resize: none !important;
+}
+
+.rcard:hover
+{
+    background-color: #222230;
+}
+
+.rcard-title
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #BFBEC7;
+}
+.rcard_details strong
+{
+    font-size:20px;
+}
+
+.middle
+{
+    height: 22%;
+    width: 100%;
+}
+
+.bottom
+{
+    height: 70% !important;
+    width: 100%;
+}
+
+.middle_plus_bottom
+{
+    height: 92% !important;
+    width: 100%;
+}
+
+.it_btn
+{
+    box-shadow: #222230 5px 5px 5px; 
+    font-size: 20px !important;  
+}
+
+
+.bottom main
+{
+    background-color: #FFFFFF ;
+}
+
+.sub_header
+{
+    background-color: #E2E2E2;
+}
+
+
+
+.h_btn_sm
+{
+    height: 15px;
+    width: 15px;
+}
+
+.user_card
+{
+    width: 45% !important;
+    height: 100px !important;
+}
+
+.user_card:hover
+{
+    width: 45% !important;
+    height: 100px !important;
+    cursor: pointer;
+    background-color: #E2E2E2 !important;
+}
+
+.cust_btn
+{
+    height: 150px !important;
+}
+.act_user_dp
+{
+    height: 80px !important;
+    width: 80px !important;
+    overflow: hidden;
+}
+
+.expand
+{
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.expand_sm
+{
+    height: 12px !important;
+    width: 12px !important;
+    font-size: 12px !important;
+}
+
+.text_xsm
+{
+    font-size: x-small !important;
+}
+
+.item_card
+{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.text_xxsm
+{
+    font-size: xx-small !important;
+}
+.text_sm
+{
+    font-size: small;
+}
+
+.h_btn_md
+{
+    height: 30px;
+    width: 30px;
+}
+
+.der_row
+{
+    height: 20px !important;
+    font-size: 12px !important;
+    overflow: hidden !important;
+    margin-bottom: 5px !important;
+}
+
+.der_det
+{
+    background-color: rgb(189,188,202);
+    color: #333;
+}
+
+
+.h-10{height: 10%;}.h-5{height: 5%;}.h-8{height: 8%;}.h-92{height: 92%;}.h-95{height: 95%;}.h-90{height: 90%;}.h-98{height: 98%;}
+.h-20{height: 20%;}
+.h-30{height: 30%;}
+.h-35{height: 35% !important;}
+.h-70{height: 70%;}
+.h-40{height: 40%;}
+.h-60{height: 60%;}
+.h-80{height: 80%;}
+.h-45{height: 45% !important;}
+
+.w-20{width: 20% !important;}
+.w-80{width: 80% !important;}
+.w-85{width: 85% !important;}
+.w-90{width: 90% !important;}
+.w-65{width: 65% !important;}
+.w-30{width: 30% !important;}
+.w-40{width: 40% !important;}
+.w-45{width: 45% !important}
+.w-0x7{width: 0.7% !important;}
+.w-90{width: 90% !important;}
+
+
+.notification:hover
+{
+    background-color: rgb(232, 232, 232);
+}
+.text_eclips
+{
+    white-space: nowrap !important; 
+    width: 100% !important; 
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.text-magento
+{
+    color: #E7652E;
+}
+
+.enc
+{
+    color: #ccc;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.enc:hover
+{
+    color: #0D93BB;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+/*SCROLL BAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FFC107; 
+  }
+
+  .bold
+  {
+      font-weight: bold;
+  }
+
+  .fac_card
+  {
+      height: 150px !important;
+      width: 150px !important;
+  }
+  .fac_cont:hover
+  {
+      padding: 0px !important;
+      background-color: #0D93BB !important;
+      border: 2px solid #0D93BB !important;
+  }
+
+
+
+  /*BUTTONS*/
+  .btn-cprimary
+  {
+    background-color: #3B3B53;
+    color: #fff;
+  }
+  .btn-cprimary:hover
+  {
+    background-color: #222230;
+    color: #fff;
+  }
+
+  .btn-cprimary-active
+  {
+    background-color: #222230;
+    color: #84E2FE !important;
+    font-weight: bolder;
+  }
+
+  .btn-csecondary
+  {
+    background-color: #1dc081;
+    color: #fff;
+  }
+
+  .btn-csecondary:hover
+  {
+    background-color: #177a56;
+    color: #fff;
+  }
+
+  .btn-csecondary-active
+  {
+    background-color: #177a56;
+    color: #fff;
+  }
+
+  .btn-csecondary-active:hover
+  {
+    background-color: #177a56 !important;
+    color: #fff;
+  }
+
+  .btn-corange
+  {
+    background-color: #EC6427;
+    color: #fff;
+  }
+
+  .btn-corange:hover
+  {
+    background-color: #9e451c;
+    color: #fff;
+  }
+  
+
+  /*BUTTONS END*/
+
+  /*BACKGROUNDS*/
+  .bg-cprimary
+  {
+      background-color: #3B3B53;
+      color: #fff;
+  }
+
+  .bg-cmain
+  {
+      background-color: #F2F2F2;
+      color: #4D4F5C;
+  }
+
+  .bg-clight
+  {
+      background-color: #FFFFFF;
+      color: #BCBCCB;
+  }
+  /*BACKGROUNDS END*/
+
+  /*REPORTS BUTTONS*/
+
+  #liveIncome
+  {
+      background-color: #A3A0FB !important;
+      color: #F2F2F2 !important;
+  }
+
+  #liveIncome:hover
+  {
+      background-color: #8885d1 !important;
+      color: #F2F2F2 !important;
+  }
+
+
+  /*REPORTS BUTTONS*/
+
+
+
+  /* APP STYLE */
+
+.app_main_button
+{
+    height: 100px;
+    width: 100px;
+}
+
+.app_main_button:hover
+{
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #FFFFFF;
+    
+}
+
+.file_button
+{
+    height: 90px;
+    width: 90px;
+}
+
+.file_button:hover
+{
+    height: 90px;
+    width: 90px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #FFFFFF;
+    
+}
+
+  /* APP STYLE */

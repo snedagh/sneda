@@ -1,0 +1,103 @@
+.bg-celadon-green
+{
+    background: #218380;
+    color: #FFFFFF;
+}
+
+.bg-platinum
+{
+    background: #DFE0DC !important;
+    color: #1d2124;
+}
+
+.bg-bone
+{
+    background: #D1D3C4;
+    color: #1d2124;
+}
+
+.modal-content,.bg-modal
+{
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+
+.bg-task
+{
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+
+.bg-track-head
+{
+    background: rgb(12,36,108);
+    background: -moz-linear-gradient(90deg, rgba(12,36,108,1) 0%, rgba(4,171,236,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(12,36,108,1) 0%, rgba(4,171,236,1) 100%);
+    background: linear-gradient(90deg, rgba(12,36,108,1) 0%, rgba(4,171,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c246c",endColorstr="#04abec",GradientType=1);
+    color: #f0f9fd !important;
+}
+
+.bg-sync
+{
+    background: rgb(12,36,108);
+    background: -moz-linear-gradient(90deg, rgba(12,36,108,1) 0%, rgba(4,171,236,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(12,36,108,1) 0%, rgba(4,171,236,1) 100%);
+    background: linear-gradient(90deg, rgba(12,36,108,1) 0%, rgba(4,171,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c246c",endColorstr="#04abec",GradientType=1);
+}
+
+.bg-independence,.hover-independence:hover
+{
+    background: #4E4C67 !important;
+    color: #FFFFFF;
+}
+.border-independence
+{
+    border-color: #4E4C67 !important;
+}
+
+.bg-home{
+    background: #0F2027 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg-snow
+{
+    background: #F9F4F5;
+    color: #000000;
+}
+
+.bg-dutch-white
+{
+    background: #DBD5B5 !important;
+    color: #000000;
+}
+
+.bg-light-cyan
+{
+    background: #E2FDFF !important;
+    color: #000000;
+}
+
+.bg-trans-50
+{
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: #f8f9fa !important;
+}
+
+
+
+/*HOVER*/
+
+
+
+/*HOVER*/

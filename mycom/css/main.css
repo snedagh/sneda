@@ -1,0 +1,38 @@
+body
+{
+    background-color: #1b1b1a;
+    color: #f3f3f3;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav_dp
+{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.nav-link
+{
+    color: #f3f3f3 !important;
+    cursor: pointer;
+}
+
+.nav-link:hover
+{
+    color: #2db4aa !important;
+    cursor: pointer;
+}
+
+.workspace
+{
+    background-color: #262626 !important;
+    color: #f3f3f3;
+}
+
+.bg-dark-pr
+{
+    background-color: #1a1b1b;
+}
+

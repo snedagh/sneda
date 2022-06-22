@@ -1,0 +1,10 @@
+.header
+{
+    height: 5%;
+}
+.icon
+{
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+}
