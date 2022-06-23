@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdcd59a4-fc0a-4eb0-b23e-3742b3c45c79" name="Changes" comment="" />
+    <list default="true" id="cdcd59a4-fc0a-4eb0-b23e-3742b3c45c79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../recipe/backend/includes/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/backend/includes/ini.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/backend/process/js_helpa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/css/sweetalert.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/js/recipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/js/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/js/sweetalert2@11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe/res/gif/menu_items.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/www1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipe/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipe/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +28,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -20,6 +41,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="29ywBqpqe5AT4dwS1kz3gid3IIY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +65,8 @@
       <updated>1654098501474</updated>
       <workItem from="1654098503616" duration="4779000" />
       <workItem from="1654267945106" duration="601000" />
+      <workItem from="1655978546781" duration="1268000" />
+      <workItem from="1655984915585" duration="22000" />
     </task>
     <servers />
   </component>
