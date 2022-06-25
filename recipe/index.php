@@ -28,12 +28,12 @@
 
 </head>
 <body class="bg-light">
-    <section id="loader" class="w-100 h-100">
+    <main id="loader" class="w-100 h-100">
         <div class="h-100 w-100 d-flex flex-wrap align-content-center justify-content-center">
             <img src="res/gif/menu_items.gif" alt="Loading..." class="ing-fluid">
         </div>
 
-    </section>
+    </main>
     <main id="page_content" style="display: none !important" class="container-fluid h-100 overflow-hidden">
         <div class="row d-flex flex-wrap align-content-center p-2 h-100 overflow-auto">
             <div class="col-sm-8 h-100 overflow-hidden d-flex align-content-start flex-wrap">
@@ -49,17 +49,18 @@
                 <div class="card rounded-0 h-100 w-100">
                     <div class="card-header">
                         <div class="w-100 h-100 d-flex flex-wrap justify-content-between align-content-center">
-                            <div class="h-100 d-flex flex-wrap align-content-center">
+                            <div class="h-100 w-100 d-flex flex-wrap align-content-center justify-content-between">
                                 <p class="m-0 card-title" id="item_name">Select And Item</p>
+                                <button onclick="$('#rec_form').fadeIn(1000)" class="btn btn-sm btn-success">NEW ITEM</button>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="card-body p-0">
-                        <ul class="list-group list-group-flush">
+                        <ul id="rec_form" style="display: none" class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <input type="hidden" id="parent" value="">
+                                <input type="hidden" id="item_parent" class="form-control form-control-sm">
                                 <input type="text" name="item_name_x" id="item_name_x" placeholder="Item Name" autocomplete="off" class="form-control form-control-sm rounded-0">
                                 <input type="number" name="qty" class="ml-1 form-control form-control-sm rounded-0 w-50" placeholder="qty" id="qty">
                                 <select name="unit" class="form-control form-control-sm rounded-0 ml-1 w-50" id="unit">
@@ -74,13 +75,7 @@
 
                         <ul id="rec_list" class="list-group list-group-flush">
 
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Item Name
-                                <div>
-                                    <span class="badge badge-primary badge-pill">12 KG</span>
-                                    <span title="Delete" class="badge badge-danger badge-pill pointer">Remove</span>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
 

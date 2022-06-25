@@ -26,7 +26,7 @@ class db
             }
             else
             {
-                return false;
+                echo "Cannot connect to $server with $driver";
             }
         }
         elseif ($driver === 'mysql')
@@ -62,6 +62,12 @@ class db
             }
 
         }
+        elseif ($db === 'smdesk')
+        {
+            $stmt = smdesk->query($query);
+            header('Content-Type: application/json');
+            $rows = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        }
         return json_encode($rows);
     }
 
@@ -84,7 +90,7 @@ class db
 
     public function exec($db,$query)
     {
-
+        echo $db;
         if($db === 'smdesk')
         {
             try{

@@ -89,7 +89,8 @@ if(isset($_POST['function']))
     {
         $query = $_POST['query'];
         $database = $_POST['db'];
-        $db->exec($db,$query);
+        $db->exec($database,$query);
+        echo "Done";
     }
 
 }

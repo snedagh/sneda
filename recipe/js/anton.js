@@ -21,6 +21,10 @@ function setText(id,text)
     jqh.setText(id,text)
 }
 
+function check_db(drivers,server,db)
+{
+    // todo check if database is active
+}
 
 //
 function recursiveEach($element){

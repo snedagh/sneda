@@ -10,14 +10,14 @@
 
     define('rest',$db->conn(
         'sqlsrv',
-        '192.168.2.4',
+        '172.17.0.2',
         'sa',
-        'sa@123456',
+        'Sunderland@411',
         'SMSEXP_REST_2022'));
     define('smdesk',$db->conn('mysql',
-        '192.168.2.3',
-        'anton',
-        '258963',
+        'localhost',
+        'root',
+        'Sunderland@411',
         'smdesk'));
 
 

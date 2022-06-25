@@ -17,3 +17,10 @@ body{
 {
     background: rgba(0, 0, 0, 0.5);
 }
+
+.top_right
+{
+    position: relative !important;
+    top: 5px !important;
+    right: 5px !important;
+}
