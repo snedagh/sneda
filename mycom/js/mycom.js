@@ -201,6 +201,7 @@ function daily_sales()
 // get sales for cards
 function card_details()
 {
+    // alert("Getting Cards")
     cl("Getting Details For Card")
     var td = toDay
     let grosss_sales;
@@ -390,12 +391,12 @@ function bill_trans()
     }
 }
 
-daily_sales()
+// daily_sales()
 card_details()
 bill_trans()
 
 // setInterval(function(){bill_trans();},1000)
-// setInterval(function(){card_details();},1000)
+setInterval(function(){card_details();},1000)
 
 
 

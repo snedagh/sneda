@@ -20,7 +20,7 @@ function row_count(table,condition = 'none') {
             success: function (response)
             {
                 result = response;
-
+                cl("SELECT * FROM " + table + " " + condition)
 
             }
         }

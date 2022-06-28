@@ -30,7 +30,9 @@
 <body class="bg-light">
     <main id="loader" class="w-100 h-100">
         <div class="h-100 w-100 d-flex flex-wrap align-content-center justify-content-center">
-            <img src="res/gif/menu_items.gif" alt="Loading..." class="ing-fluid">
+            <div style="height: 50px !important; width: 50px !important">
+                <img src="res/gif/menu_items.gif" alt="Loading..." class="ing-fluid">
+            </div>
         </div>
 
     </main>
@@ -67,6 +69,7 @@
                                     <option value="">UNIT</option>
                                     <option value="PCS">PCS</option>
                                     <option value="PCS">KG</option>
+                                    <option value="g">g</option>
                                     <option value="PCS">LIT</option>
                                 </select>
                                 <button onclick="new_recipe_item()" class="btn btn-sm btn-success ml-1">ADD</button>

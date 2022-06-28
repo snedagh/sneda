@@ -3,9 +3,9 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="42283844-a301-4c2d-9f86-d68ed02b4ef2" name="SALES ONLINE" url="http://www.snedamotors.com ">
-        <fileTransfer host="160.153.133.78" port="21">
+        <fileTransfer rootFolder="/home/web/sales" accessType="SFTP" host="test.sneda.gh" port="22" sshConfigId="b59b79b0-adfa-49b2-89a7-984d770421da" sshConfig="reza@test.sneda.gh:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

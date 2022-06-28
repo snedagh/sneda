@@ -2,7 +2,7 @@
 
 
     require 'db.php';
-    $db = new database\db();
+    $db = new db();
 
     ini_set('display_errors', '1');
     ini_set('display_startup_errors', '1');
@@ -10,15 +10,12 @@
 
     define('rest',$db->conn(
         'sqlsrv',
-        '172.17.0.2',
+        '192.168.2.4',
         'sa',
-        'Sunderland@411',
+        'sa@123456',
         'SMSEXP_REST_2022'));
-    define('smdesk',$db->conn('mysql',
-        'localhost',
-        'root',
-        'Sunderland@411',
-        'smdesk'));
+    $pdo = $db->conn('mysql', '192.168.2.3', 'anton', '258963', 'smdesk');
+//    define('smdesk',$pdo);
 
 
 

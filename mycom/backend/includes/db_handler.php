@@ -8,7 +8,7 @@ class db_handler extends anton
     public function db_connect() // connect to database
     {
         $host = "localhost";
-        $user = "anton411";
+        $user = "root";
         $password = "Sunderland@411";
         $db = "smdesk";
         //set DSN

@@ -140,6 +140,7 @@ function query_row(db,query) {
                 success: function (response)
                 {
                     result = response;
+                    console.log(query)
                     // console.log(response)
                     // echo("GET_ROW QUERY : SELECT * FROM " + table + " WHERE " + condition.toString())
 

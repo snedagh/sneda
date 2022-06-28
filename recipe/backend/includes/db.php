@@ -1,6 +1,6 @@
 <?php
 
-namespace database;
+
 
 class db
 {
@@ -10,7 +10,21 @@ class db
     public $db_pass;
     public $database;
 
+    public function db_connect() // connect to database
+    {
+        $host = "192.168.2.3";
+        $user = "anton";
+        $password = "258963";
+        $db = "smdesk";
+        //set DSN
+        $dns = 'mysql:host='.$host.';dbname='.$db;
 
+        //create pdo instanse
+        $pdo = new PDO($dns,$user,$password);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+        return $pdo;
+    }
 
     public function conn($driver,$server,$db_user,$db_pass,$database)
     {
@@ -31,13 +45,17 @@ class db
         }
         elseif ($driver === 'mysql')
         {
+            $host = "192.168.2.3";
+            $user = "anton";
+            $password = "258963";
+            $db = "smdesk";
             //set DSN
-            $dns = 'mysql:host='.$server.';dbname='.$database;
+            $dns = 'mysql:host='.$host.';dbname='.$db;
 
             //create pdo instanse
-            $pdo = new \PDO($dns,$db_user,$db_pass);
-            $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-            $pdo->setAttribute(\PDO::ATTR_EMULATE_PREPARES, false);
+            $pdo = new PDO($dns,$user,$password);
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
             return $pdo;
         }
         else
@@ -64,7 +82,7 @@ class db
         }
         elseif ($db === 'smdesk')
         {
-            $stmt = smdesk->query($query);
+            $stmt = $this->db_connect()->query($query);
             header('Content-Type: application/json');
             $rows = $stmt->fetchAll(\PDO::FETCH_ASSOC);
         }
@@ -81,7 +99,7 @@ class db
 
                 break;
             case 'smdesk':
-                $stmt = smdesk->query($query);
+                $stmt = $this->db_connect()->query($query);
                 $row = $stmt->rowCount();
                 break;
         }
@@ -94,7 +112,7 @@ class db
         if($db === 'smdesk')
         {
             try{
-                smdesk->query($query);
+                $this->db_connect()->query($query);
             } catch (\PDOException $e)
             {
                 echo $e->getMessage();

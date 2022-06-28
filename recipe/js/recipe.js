@@ -94,6 +94,8 @@ function new_recipe_item() {
 
         $('#rec_list').prepend(html)
 
+        $('#item_parent').focus()
+
         jqh.setVal({
             'item_parent':'',
             'item_name_x':'',
@@ -103,6 +105,7 @@ function new_recipe_item() {
             'unit':"<option value=\"\">UNIT</option>\n" +
                 "                                    <option value=\"PCS\">PCS</option>\n" +
                 "                                    <option value=\"PCS\">KG</option>\n" +
+                "<option value=\"g\">g</option>" +
                 "                                    <option value=\"PCS\">LIT</option>"
         })
 
@@ -128,8 +131,17 @@ function loadMenuItems()
 
         for(let mi = 0; mi < menu_items.length; mi++) // get buttons
         {
+
             let item = menu_items[mi];
-            buttons_html += "<button onclick='get_recipe("+item.barcode+")' class=\"btn btn-danger m-1 recipe_card\">"+
+            let barcode = item.barcode;
+            let barcode_san = barcode.trim()
+            let btn_bg = 'btn-danger';
+            // check if there is recipe
+            if(query_row('smdesk',"SELECT * FROM `recipe` WHERE parent = '"+barcode_san+"'") > 0)
+            {
+                btn_bg = 'btn-success';
+            }
+            buttons_html += "<button onclick='get_recipe("+item.barcode+")' class=\"btn "+btn_bg+" m-1 recipe_card\">"+
                 item.item_des +"</button>";
         }
         jqh.setHtml({'myDIV':buttons_html})
