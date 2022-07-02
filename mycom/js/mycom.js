@@ -391,8 +391,9 @@ function bill_trans()
     }
 }
 
-// daily_sales()
+
 card_details()
+daily_sales()
 bill_trans()
 
 // setInterval(function(){bill_trans();},1000)
