@@ -543,7 +543,13 @@
                 setSession('stage','comf_num');
                 $msg = "Your card has been linked to this phone number. You can continue to enjoy mega discount whilst shopping";
                 sms('mnotify','','SNEDA SHOP',"$phone","$msg",'1000');
-                echo 'reload';
+
+                // enable card
+                $sql = "UPDATE LoyaltyCustomer SET valid = ( ?)";
+                $params = array( 1 );
+                $stmt = sqlsrv_query( $sql_srv_con, $sql, $params);
+
+                echo 'done';
             }
             catch (PDOException $e)
             {

@@ -4,13 +4,13 @@
     $hos = $_SERVER['HTTP_HOST'];
 
 
-    if($hos === 'test1.sneda.gh')
+    if($hos === 'www1.sneda.dev')
     {
-        $app = 'http://test1.sneda.gh';
-        $host = "192.168.2.3";
-        $user ="anton";
-        $password = "258963";
-        $db = "smdesk_testing";
+        $app = 'http://www1.sneda.dev';
+        $host = "localhost";
+        $user ="root";
+        $password = "Sunderland@411";
+        $db = "smdesk";
         $sql_db = 'UAT_RETAIL_INV';
         $sql_rest = 'SMSEXPV17_REST';
 
@@ -31,6 +31,8 @@
 
 
     }
+
+
 
 
 

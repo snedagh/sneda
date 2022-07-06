@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="www1.sneda.gh" id="964a6536-02c4-4ebd-88c6-d6713c1a4a38" port="22" nameFormat="DESCRIPTIVE" username="reza" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

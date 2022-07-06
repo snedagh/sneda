@@ -603,7 +603,7 @@ function sms($api,$key,$from,$to,$msg,$exp_ressult): bool
         }
         else
         {
-            br("Code : ".$code);
+//            br("Code : ".$code);
             return false;
         }
     }

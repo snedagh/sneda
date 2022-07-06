@@ -28,19 +28,25 @@
 
 </head>
 <body class="bg-light">
-    <main id="loader" class="w-100 h-100">
+
+    <div style="height: 100vh!important; display: block" id="loader" class="w-100 h-100">
         <div class="h-100 w-100 d-flex flex-wrap align-content-center justify-content-center">
             <div style="height: 50px !important; width: 50px !important">
                 <img src="res/gif/menu_items.gif" alt="Loading..." class="ing-fluid">
             </div>
         </div>
+    </div>
 
-    </main>
     <main id="page_content" style="display: none !important" class="container-fluid h-100 overflow-hidden">
         <div class="row d-flex flex-wrap align-content-center p-2 h-100 overflow-auto">
             <div class="col-sm-8 h-100 overflow-hidden d-flex align-content-start flex-wrap">
-                <div style="height: 10vh; overflow: hidden" class="w-100">
-                    <input type="search" autocomplete="off" id="myInput" placeholder="Find and item" class="form-control rounded-0">
+                <div style="height: 10vh; overflow: hidden" class="w-100 d-flex flex-wrap">
+                    <div class="w-75">
+                        <input type="search" autocomplete="off" id="myInput" placeholder="Find and item" class="form-control rounded-0">
+                    </div>
+                    <div class="w-25 d-flex flex-wrap justify-content-end">
+                        <kbd style="height: fit-content"><span id="done">0</span> / <span id="all">0</span></kbd>
+                    </div>
                 </div>
                 <div style="height: 90vh; overflow: auto" class="w-100 d-flex justify-content-between flex-wrap" id="myDIV">
 
@@ -66,10 +72,10 @@
                                 <input type="text" name="item_name_x" id="item_name_x" placeholder="Item Name" autocomplete="off" class="form-control form-control-sm rounded-0">
                                 <input type="number" name="qty" class="ml-1 form-control form-control-sm rounded-0 w-50" placeholder="qty" id="qty">
                                 <select name="unit" class="form-control form-control-sm rounded-0 ml-1 w-50" id="unit">
-                                    <option value="">UNIT</option>
+                                    <option value="g">g</option>
                                     <option value="PCS">PCS</option>
                                     <option value="PCS">KG</option>
-                                    <option value="g">g</option>
+
                                     <option value="PCS">LIT</option>
                                 </select>
                                 <button onclick="new_recipe_item()" class="btn btn-sm btn-success ml-1">ADD</button>

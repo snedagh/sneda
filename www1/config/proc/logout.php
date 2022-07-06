@@ -27,5 +27,6 @@
 
 
     // Redirect to login page
-    header("location:http://www1.sneda.gh/");
+    $hos = $_SERVER['HTTP_HOST'];
+    header("location:http://$hos");
     exit;

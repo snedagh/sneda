@@ -382,12 +382,8 @@
                         </header>
                         <article class="d-flex flex-wrap align-content-center justify-content-center">
                             <?php if($view === 'home'): ?>
-                                <div class="w-75">
-                                    <div class="card w-30">
-                                        <div class="card-header">
-                                            Customers
-                                        </div>
-                                    </div>
+                                <div class="w-75 p-2 text-center">
+                                    <p class="enc text-muted">Select An Option</p>
                                 </div>
                             <?php endif; ?>
 

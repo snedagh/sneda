@@ -103,9 +103,8 @@ function new_recipe_item() {
         })
         jqh.setHtml({
             'unit':"<option value=\"\">UNIT</option>\n" +
-                "                                    <option value=\"PCS\">PCS</option>\n" +
+                " <option value=\"g\">g</option>                                   <option value=\"PCS\">PCS</option>\n" +
                 "                                    <option value=\"PCS\">KG</option>\n" +
-                "<option value=\"g\">g</option>" +
                 "                                    <option value=\"PCS\">LIT</option>"
         })
 
@@ -120,43 +119,53 @@ function new_recipe_item() {
 function loadMenuItems()
 {
     // check it items are in menu
-    let menu_count = query_row('rest',"SELECT * FROM prod_mast where item_type = 5");
+    let menu_count = query_row('rest',"SELECT * FROM item_buttons");
     cl("Lets Go")
     cl(menu_count + typeof(menu_count))
+    let total_done = 0;
     if(menu_count > 0 )
     {
         // get all menu
-        let menu_items = fetch_return('rest',"SELECT * FROM prod_mast where item_type = 5")
+        let menu_items = fetch_return('rest',"SELECT * FROM item_buttons")
         let buttons_html = '';
 
         for(let mi = 0; mi < menu_items.length; mi++) // get buttons
         {
 
             let item = menu_items[mi];
-            let barcode = item.barcode;
+
+            let barcode = item.code;
+            let item_desc = item.descr
+            console.log(JSON.stringify(item))
+            cl(item_desc)
             let barcode_san = barcode.trim()
             let btn_bg = 'btn-danger';
             // check if there is recipe
             if(query_row('smdesk',"SELECT * FROM `recipe` WHERE parent = '"+barcode_san+"'") > 0)
             {
                 btn_bg = 'btn-success';
+                total_done += 1;
             }
-            buttons_html += "<button onclick='get_recipe("+item.barcode+")' class=\"btn "+btn_bg+" m-1 recipe_card\">"+
-                item.item_des +"</button>";
+            buttons_html += "<button onclick='get_recipe("+item.code+")' class=\"btn "+btn_bg+" m-1 recipe_card\"> "+item_desc
+                 +"</button>";
         }
         jqh.setHtml({'myDIV':buttons_html})
+        $('#done').text(total_done)
+        $('#all').text(menu_count)
 
     }
     $('#loader').fadeOut(5000)
     $('#page_content').fadeIn(10000)
+
+
 }
 
 function get_recipe(barcode) {
     // count recipe
     cl(barcode)
     // get item details
-    let item_details = fetch_return('rest',"SELECT * FROM prod_mast WHERE barcode = '"+barcode+"'")[0]
-    let item_name = item_details.item_des
+    let item_details = fetch_return('rest',"SELECT * FROM item_buttons WHERE code = '"+barcode+"'")[0]
+    let item_name = item_details.descr
     jqh.setText({'item_name':item_name})
     jqh.setVal({'item_parent':barcode})
 

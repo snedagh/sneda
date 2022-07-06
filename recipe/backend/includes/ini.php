@@ -10,10 +10,10 @@
 
     define('rest',$db->conn(
         'sqlsrv',
-        '192.168.2.4',
+        '192.168.1.2',
         'sa',
         'sa@123456',
-        'SMSEXP_REST_2022'));
+        'RESTDB_POS'));
     $pdo = $db->conn('mysql', '192.168.2.3', 'anton', '258963', 'smdesk');
 //    define('smdesk',$pdo);
 

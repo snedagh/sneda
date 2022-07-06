@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c666c563-064e-42e1-a031-66c57370dcab" name="www1">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="www1.sneda.gh" port="22" sshConfigId="964a6536-02c4-4ebd-88c6-d6713c1a4a38" sshConfig="reza@www1.sneda.gh:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

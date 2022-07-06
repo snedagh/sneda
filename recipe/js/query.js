@@ -102,7 +102,7 @@ function fetch_return(db,query) {
                 success: function (response)
                 {
                     result = JSON.parse(response);
-                    // console.log(response)
+                    console.log(query)
                     // echo("GET_ROW QUERY : SELECT * FROM " + table + " WHERE " + condition.toString())
 
                 }

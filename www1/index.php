@@ -42,6 +42,8 @@
 
 
     <script src="js/all.js"></script>
+    <script src="js/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/sweetalert.min.css">
 
 
 
@@ -50,20 +52,19 @@
 <body class="bg-home d-flex flex-wrap align-content-center justify-content-center">
     <input type="hidden" name="token" id="session_token" value="<?php echo session_id() ?>">
     <!-- LOADER MODAL -->
-    <div class="modal fade in" data-keyboard="false" data-backdrop="static" id="loader">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="w-100 bg-light p-2 text-center">
-                <button data-dismiss="modal" style="display: none" id="processModalClose" class="btn-danger">CLOSE</button><br>
-                <button class="btn m-0 btn-light" disabled>
-                    <span class="spinner-grow spinner-grow-sm"></span>
-                    Processing..
-                    <div class="text-center text-danger" id="loader_error_place"></div>
-                </button>
+    <div class="modal" data-keyboard="false" data-backdrop="static" id="loader">
+        <div class="w-100 h-100 bg_trans_80 d-flex flex-wrap align-content-center justify-content-center">
+            <div style="width: 100px; height: 100px; background: none !important">
+                <img src="assets/icons/home/loader.gif" alt="" class="img-fluid">
+            </div>
+            <div class="m-2 w-100 text-center">
                 <p class="text-danger" id="errplace"></p>
                 <p class="text-success" id="successplace"></p>
                 <p class="text-success" id="infoplace"></p>
+<!--                <button class="btn btn-light rounded-0" onclick="loader('hide')">CLOSE</button>-->
             </div>
         </div>
+
     </div>
 
 
@@ -384,6 +385,7 @@ WHERE type_code In ('RR','RC','DR','DM','DP','MN','MP','W','DN','PO','DT') ");
 <!-- ANTON -->
 <script src="js/anton.js"></script>
 <script src="js/loyalty.js"></script>
+<script src="js/admin.js"></script>
 
 
 <script>

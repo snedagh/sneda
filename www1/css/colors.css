@@ -94,6 +94,10 @@
     color: #f8f9fa !important;
 }
 
+.bg_trans_80{
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: #f8f9fa !important;
+}
 
 
 /*HOVER*/

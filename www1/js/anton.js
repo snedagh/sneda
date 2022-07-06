@@ -340,6 +340,7 @@ function search_item(todo,q) {
 
 // set session
 function set_session(session_data,t = token,rel=1)  {
+    $('#loader').modal('show');
     var date = {
         'token':t,
         'function':'set_session',
@@ -356,10 +357,14 @@ function set_session(session_data,t = token,rel=1)  {
                 if(rel === 1)
                 {
                     location.reload()
+                } else {
+                    $('#loader').modal('hide');
                 }
             }
         }
     );
+
+    //$('#loader').modal('hide');
 }
 
 function db_sync(data)
@@ -772,4 +777,95 @@ function triggerArrange() {
     setInterval(function(){
         arrangeStock()
     }, 1000);
+}
+
+function append_table(target) {
+    let tr = '';
+    if(target === 'po_line')
+    {
+
+        let error = 0;
+        let err_msg = '';
+
+        // check supplier
+        if($('#supplier').val().length < 1)
+        {
+            error += 1;
+            err_msg += "Supplier cannot be empty <br>";
+            $('#supplier').addClass('border-danger')
+        }
+        if($('#supplier_contact').val().length < 1)
+        {
+            error += 1;
+            err_msg += "Supplier Contact cannot be empty <br>";
+            $('#supplier_contact').addClass('border-danger')
+        }
+        if($('#remarks').val().length < 1)
+        {
+            error += 1;
+            err_msg += "Remarks cannot be empty <br>";
+            $('#remarks').addClass('border-danger')
+        }
+
+
+        if(error > 0)
+        {
+            alert("Please fill header information")
+        }
+        else
+        {
+            let sn = $('#po_list tr').length + 1;
+            let unit_id = "unit_"+sn.toString()
+            let qty_id = "qty_"+sn.toString()
+            let total_id = "total_"+sn.toString()
+            let desc_id = "desc_"+sn.toString()
+            let row_id = "row_"+sn.toString()
+
+            tr = "<tr id='"+row_id+"'>\n" +
+                "                                                            <td>"+sn+"</td>\n" +
+                "                                                            <td>\n" +
+                "                                                                <input type=\"text\" required class=\"form-control form-control-sm\" name=\"descdription[]\" id='"+desc_id+"'>\n" +
+                "                                                            </td>\n" +
+                "                                                            <td>\n" +
+                "                                                                <input style=\"width: 100px\" type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" onkeyup= \"po_line('"+sn+"')\" name=\"unit_cost[]\" id='"+unit_id+"'>\n" +
+                "                                                            </td>\n" +
+                "                                                            <td>\n" +
+                "                                                                <input style=\"width: 100px\" type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" onkeyup= \"po_line('"+sn+"')\" name=\"qty[]\" id='"+qty_id+"'>\n" +
+                "                                                            </td>\n" +
+                "                                                            <td>\n" +
+                "                                                                <input readonly style=\"width: 100px\" type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" name=\"total_cost[]\" id='"+total_id+"'>\n" +
+                "                                                            </td>\n" +
+                "                                                            <td>\n" +
+                "                                                                <button onclick=\"remove_element('"+row_id+"')\" class=\"btn btn-sm btn-danger\" type=\"button\"><i class=\"fa fa-minus\"></i></button>\n" +
+                "                                                            </td>\n" +
+                "\n" +
+                "                                                        </tr>";
+
+            $('#po_list').append(tr)
+        }
+
+
+    }
+}
+
+function remove_element(id) {
+    console.log(id)
+    $('#'+id.toString()).remove()
+}
+
+function swal_error(message = 'there is an error')
+{
+    Swal.fire({
+        icon: 'error',
+        html: "<textarea class='form-control form-control-sm' style='font-size: small' rows='5'>"+message+"</textarea>",
+    })
+}
+
+function percentage(rate,vale)
+{
+    return rate/100 * vale;
+}
+
+function cl(params) { // console log
+    console.log(params + '\n')
 }

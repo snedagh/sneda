@@ -60,6 +60,9 @@
                 session_destroy();
 
                 echo "USERUPDATED";
+                // Redirect to login page
+                $hos = $_SERVER['HTTP_HOST'];
+                header("location:http://$hos");
 
             }
             else
@@ -801,6 +804,10 @@
                     echo $e->getMessage();
                     error('could no change');
                 }
+            }
+
+            else{
+                print_r($_POST);
             }
         }
 

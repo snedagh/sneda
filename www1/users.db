@@ -1,0 +1,76 @@
+-- MariaDB dump 10.19  Distrib 10.6.7-MariaDB, for debian-linux-gnu (x86_64)
+--
+-- Host: 192.168.2.3    Database: smdesk
+-- ------------------------------------------------------
+-- Server version	8.0.26
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `ual` int NOT NULL COMMENT 'User Access Level',
+  `first_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `last_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `username` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `email` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `phone` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `extension` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `gender` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `token` text NOT NULL,
+  `user_type` text,
+  `password_reset` int NOT NULL DEFAULT '0',
+  `acct_disabled` int NOT NULL DEFAULT '0',
+  `acct_del` int NOT NULL DEFAULT '0',
+  `theme` text,
+  `date_created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_seen` timestamp NULL DEFAULT NULL,
+  `login_count` int DEFAULT '0',
+  `locked_time` datetime DEFAULT NULL,
+  `online` int DEFAULT '0',
+  `company` text,
+  `branch` text,
+  `position` text,
+  `dp` text,
+  `storage_quota` text,
+  `account_config` int NOT NULL DEFAULT '1',
+  `first_login` int DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=95 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (56,0,'Reza','Sadoon','admin','solomon@snedaghana.com','0546310011','111','M','$2y$10$zQDwSmTXaEmpCTVsv5zMJum/vwKrdlUCzHnxl8QvRrOh/754ovpje','Administrator',0,0,0,'default','2020-12-22 11:11:04','2021-04-15 12:30:55',0,NULL,0,'Sneda','HQ','Systems Administrator','jpg','161061191136',1,0),(79,1,'ABDUL BILAL','QUADRI','abdul','ideal.researcher@hotmail.com','0277702755',NULL,'M','$2y$10$EtKZqdI/VWskVCf4tPHi0uVRsPzpWag./eDC6NAj.MVDAz1PPP8mS',NULL,0,0,0,NULL,'2021-09-20 13:44:35',NULL,0,NULL,0,NULL,NULL,NULL,'default',NULL,1,0),(89,1,'Jane','Doe','demo','test@domain.com','0201998184',NULL,'M','$2y$10$bgfmL7LXSDxmiX2uxw2oOOeezVhgawJuqWabQ2ymOWw.44IQ7BsU.',NULL,0,0,0,NULL,'2021-12-02 13:04:15',NULL,0,NULL,0,NULL,NULL,NULL,'default',NULL,1,0),(90,99,'sreekanth','s','sreekanth','rykerking007@gmail.com','0271140500',NULL,'M','$2y$10$Amt9Y2Jzrt9SBU9hgK3z1ev.ByBBLwBPnxJ93asGy3kQ/6b9LZZuW',NULL,0,0,0,NULL,'2022-03-05 15:51:15',NULL,0,NULL,0,NULL,NULL,NULL,'default',NULL,1,0),(91,0,'Reza','Sadoon','411','solomon@snedaghana.com','0546310011',NULL,'M','$2y$10$x2I6ApEOcueitLBFlSYSPOuiOKpVt.3T0osqNOYnc9wXsAajwk00W',NULL,0,0,0,NULL,'2022-03-22 05:42:56',NULL,0,NULL,0,NULL,NULL,NULL,'default',NULL,1,0),(92,99,NULL,NULL,'anvesh',NULL,NULL,NULL,NULL,'$2y$10$MDE54kqda4IjDEe/3dE7Ye1i5iMGSPApWi1anuHKTNOwlI6nFeAjm',NULL,0,0,0,NULL,'2022-03-22 05:43:09',NULL,0,NULL,0,NULL,NULL,NULL,'default',NULL,1,1),(93,99,NULL,NULL,'daniel',NULL,NULL,NULL,NULL,'$2y$10$s8eO16VnQiGV0ZTI3sUfIeFUVVlAmSxCHXTrcuSZNRJFG/Y1YqsAq',NULL,0,0,0,NULL,'2022-03-22 05:43:28',NULL,0,NULL,0,NULL,NULL,NULL,'default',NULL,1,1),(94,1,'Derick','Derick','rico','none@domain.com','0000000000',NULL,'M','$2y$10$uOWJSsbRvLuGKwnPvMSY3O80UjUMrQlStClD.jGKFw65HhNhLM606',NULL,0,0,0,NULL,'2022-04-19 15:16:59',NULL,3,NULL,0,NULL,NULL,NULL,'default',NULL,1,0);
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-06-10 11:54:21
