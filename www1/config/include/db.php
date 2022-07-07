@@ -8,7 +8,7 @@
     //PDO CONNECT
 
     try {
-        $dns = 'mysql:host='.$host.';dbname='.$db;
+        $dns = 'mysql:host='.$host.';dbname='.$dbd;
 
         //create pdo instanse
         $pdo = new PDO($dns,$user,$password);

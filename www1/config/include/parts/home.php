@@ -46,15 +46,7 @@
         </div>
     </div>
 
-    <div class="container h-100">
-        <div class="row no-gutters d-flex flex-wrap align-content-start h-100">
-
-            <div class="col-sm-12 mb-2">
-                <div class="card w-100">
-                    <a href="#"></a>
-                </div>
-            </div>
-
-        </div>
+    <div class="container-fluid h-100 overflow-auto">
+<!--        <embed src="http://test.sneda.gh:8000" class="w-100 h-100">-->
     </div>
 </div>

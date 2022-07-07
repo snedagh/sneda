@@ -806,6 +806,43 @@
                 }
             }
 
+            elseif ($func === 'new_po')
+            {
+                $last_serial = fetchFunc('doc_serials',"`doc` = 'PO' AND `season` = '$this_year'",$pdo)['last_doc'];
+                $entry_no = "PO" . $last_serial + 1;
+                $supplier = post('supplier');
+                $supplier_contact = post('supplier_contact');
+                $loc = post('loc');
+                $remarks  = post('remarks');
+                $gross = post('gross');
+                $discount = post('discount');
+                $net = post('net');
+
+
+
+
+
+                foreach ($_POST['descr'] as $key => $value)
+                {
+                    $line_no = $key;
+                    $descr = $value;
+                    $unit_cost = $_POST['unit_cost'][$key];
+                    $qty = $_POST['qty'][$key];
+                    $total_cost = $_POST['total_cost'][$key];
+
+                    // insert in po trans
+                    $pdo->exec("INSERT INTO po_trans(entry_no, line, descr, unit_cost, qty, total_cost, created_by) VALUES ('$entry_no','$line_no','$descr','$unit_cost','$qty','$total_cost','$my_username')");
+
+                }
+                // insert into po header
+                $pdo->exec("INSERT INTO po_hd (entry_no, supplier, supplier_contact, loc, remarks, gross, discount, net, created_by) VALUES ('$entry_no','$supplier','$supplier_contact','$loc','$remarks','$gross','$discount','$net','$my_username')");
+                $pdo->exec("UPDATE doc_serials SET last_doc = last_doc + 1 where doc  = 'PO'");
+                setSession('view','view');
+                echo 'done';
+                // update last serial
+
+            }
+
             else{
                 print_r($_POST);
             }

@@ -179,6 +179,7 @@ function fetchFunc($table , $condition, $connection)
     {
         $sql = "SELECT * FROM $table WHERE $condition LIMIT 1";
     }
+
     $stmt = $connection->prepare($sql);
     $stmt->execute();
     return $result = $stmt->fetch(PDO::FETCH_ASSOC);

@@ -2,32 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdcd59a4-fc0a-4eb0-b23e-3742b3c45c79" name="Changes" comment="before po">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/home/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/sweetalert.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/sweetalert2@11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipe/backend/includes/ini.php" beforeDir="false" afterPath="$PROJECT_DIR$/../recipe/backend/includes/ini.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipe/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../recipe/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipe/js/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recipe/js/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipe/js/recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recipe/js/recipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/anton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/db_handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/parts/admin_panel/purchase_order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/FAQ.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/changelog.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/__construct.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/acceptpagebreak.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/addfont.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/addlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/addpage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/aliasnbpages.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/cell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/close.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/error.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/footer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/getpageheight.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/getpagewidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/getstringwidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/getx.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/gety.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/image.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/line.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/link.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/ln.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/multicell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/output.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/pageno.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/rect.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setauthor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setautopagebreak.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setcompression.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setcreator.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setdisplaymode.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setdrawcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setfillcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setfont.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setfontsize.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setkeywords.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setleftmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setlinewidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setmargins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setrightmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setsubject.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/settextcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/settitle.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/settopmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setx.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/setxy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/sety.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/text.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/doc/write.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/courier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/courierb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/courierbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/courieri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/helvetica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/helveticab.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/helveticabi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/helveticai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/symbol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/times.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/timesb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/timesbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/timesi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/font/zapfdingbats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/fpdf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/fpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/install.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1250.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1251.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1252.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1253.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1254.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1255.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1257.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp1258.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/cp874.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-11.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-15.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-16.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-5.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-7.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/iso-8859-9.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/koi8-r.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/koi8-u.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/makefont.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/makefont/ttfparser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/20k_c1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/20k_c2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/CevicheOne-Regular-Licence.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/CevicheOne-Regular.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/CevicheOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/CevicheOne-Regular.z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/makefont.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto3.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto4.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto5.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto6.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto7.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/include/pdf/tutorial/tuto7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/proc/ajax_tools.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/j_query_supplies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/po.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5251ae12-7e68-48b1-a80b-d63454887f8f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5251ae12-7e68-48b1-a80b-d63454887f8f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/include/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/core.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/include/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/FAQ.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/changelog.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/__construct.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/acceptpagebreak.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/addfont.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/addlink.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/addpage.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/aliasnbpages.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/cell.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/close.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/error.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/footer.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/getpageheight.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/getpagewidth.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/getstringwidth.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/getx.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/gety.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/header.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/image.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/line.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/link.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/ln.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/multicell.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/output.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/pageno.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/rect.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setauthor.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setautopagebreak.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setcompression.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setcreator.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setdisplaymode.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setdrawcolor.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setfillcolor.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setfont.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setfontsize.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setkeywords.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setleftmargin.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setlinewidth.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setlink.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setmargins.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setrightmargin.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setsubject.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/settextcolor.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/settitle.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/settopmargin.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setx.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/setxy.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/sety.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/text.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/doc/write.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/courier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/courierb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/courierbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/courieri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/helvetica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/helveticab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/helveticabi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/helveticai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/symbol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/times.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/timesb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/timesbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/timesi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/font/zapfdingbats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/fpdf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/fpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/install.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1250.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1251.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1252.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1253.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1254.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1255.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1257.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp1258.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/cp874.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-11.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-15.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-16.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-4.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-5.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-7.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/iso-8859-9.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/koi8-r.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/koi8-u.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/makefont.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/makefont/ttfparser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/20k_c1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/20k_c2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/CevicheOne-Regular-Licence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/CevicheOne-Regular.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/CevicheOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/CevicheOne-Regular.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/countries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/makefont.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto3.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto4.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto5.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto6.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto7.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/fpdf/tutorial/tuto7.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/include/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/parts/admin_panel/root.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/parts/admin_panel/root.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/include/parts/admin_panel/stock.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/parts/admin_panel/stock.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/include/parts/mycom/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/parts/mycom/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/proc/form/loyalty.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/proc/form/loyalty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/include/parts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/include/parts/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/proc/form_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/proc/form_process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/proc/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/proc/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/anton.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/anton.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +263,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -70,7 +302,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "/home/stuffs/Development/PHP/sneda/www1/css",
+    "last_opened_file_path": "/home/stuffs/Development/PHP/sneda/www1/js",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -81,8 +313,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/config/include" />
+      <recent name="$PROJECT_DIR$/config/proc" />
+      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +332,7 @@
       <workItem from="1655978546781" duration="1268000" />
       <workItem from="1655984915585" duration="22000" />
       <workItem from="1657121919096" duration="6145000" />
-      <workItem from="1657132233427" duration="6646000" />
+      <workItem from="1657132233427" duration="32477000" />
     </task>
     <servers />
   </component>

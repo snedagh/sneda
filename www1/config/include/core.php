@@ -1,16 +1,25 @@
 <?php
 
 
+
+    require 'anton.php';
+    require 'db_handler.php';
+    $anton = new anton();
+    $db = new db_handler();
     $hos = $_SERVER['HTTP_HOST'];
 
 
     if($hos === 'www1.sneda.dev')
     {
+        ini_set('display_errors', '1');
+        ini_set('display_startup_errors', '1');
+        error_reporting(E_ALL);
+
         $app = 'http://www1.sneda.dev';
         $host = "localhost";
         $user ="root";
         $password = "Sunderland@411";
-        $db = "smdesk";
+        $dbd = "smdesk";
         $sql_db = 'UAT_RETAIL_INV';
         $sql_rest = 'SMSEXPV17_REST';
 
@@ -24,7 +33,7 @@
         $host = "192.168.2.3";
         $user ="anton";
         $password = "258963";
-        $db = "smdesk";
+        $dbd = "smdesk";
         $sql_db = 'SMSEXPV17';
 
         error_reporting(E_ERROR | E_PARSE);
@@ -40,7 +49,6 @@
     require 'session.php';
     require 'tools.php';
     require 'functions.php';
-    require 'fpdf/fpdf.php';
 
     $tools = new tools();
     //$db = new db(true);
@@ -49,7 +57,7 @@
 
 
 
-
+    $this_year = date('Y');
 
 
 

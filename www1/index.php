@@ -39,6 +39,11 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/query.js"></script>
+
+    <script src="js/loyalty.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/j_query_supplies.js"></script
 
 
     <script src="js/all.js"></script>
@@ -51,6 +56,7 @@
 </head>
 <body class="bg-home d-flex flex-wrap align-content-center justify-content-center">
     <input type="hidden" name="token" id="session_token" value="<?php echo session_id() ?>">
+    <script src="js/anton.js"></script>
     <!-- LOADER MODAL -->
     <div class="modal" data-keyboard="false" data-backdrop="static" id="loader">
         <div class="w-100 h-100 bg_trans_80 d-flex flex-wrap align-content-center justify-content-center">
@@ -383,9 +389,8 @@ WHERE type_code In ('RR','RC','DR','DM','DP','MN','MP','W','DN','PO','DT') ");
 
 
 <!-- ANTON -->
-<script src="js/anton.js"></script>
-<script src="js/loyalty.js"></script>
-<script src="js/admin.js"></script>
+
+
 
 
 <script>

@@ -40,11 +40,21 @@
                     <!-- DB SYNC -->
 
                     <!-- Stock -->
-                    <button  data-toggle="collapse" data-target="#stock" class="btn <?php if($tool === 'stock'){echo 'r_nav_active';} else {echo 'r_nav';} ?> text-light text-left mb-2 w-100" data-target="#inventory_collapse">
+                    <button  data-toggle="collapse" data-target="#stock" class="btn <?php if($tool === 'stock'){echo 'r_nav_active';} else {echo 'r_nav';} ?> text-light  text-left mb-2 w-100" data-target="#inventory_collapse">
                         <span class="fa fa-boxes-stacked"></span> Stock
                     </button>
-                    <div id="stock" class="collapse pl-4 mb-2">
-                        <span onclick="set_session('tool=stock,view=all','<?php echo $token ?>')" class="r_child pointer"><span class="fa fa-eye"></span> View Stock</span>
+                    <div id="stock" class="collapse pl-4 text_sm mb-2">
+                        <div class="w-100 my-2">
+                            <span onclick="set_session('tool=stock,view=product_master,action=view','<?php echo $token ?>')" class="r_child pointer"><span class="fa fa-product-hunt"></span> Products</span>
+                        </div>
+                        <div class="w-100 my-2">
+                            <span onclick="set_session('tool=po,view=view','<?php echo $token ?>')" class="r_child pointer"><i class="fas fa-box"></i> Purchase Order</span>
+                        </div>
+                        <div class="w-100 my-2">
+                            <span onclick="set_session('tool=stock,view=all','<?php echo $token ?>')" class="r_child pointer"><span class="fa fa-eye"></span> View Stock</span>
+                        </div>
+
+
                     </div>
 
 
@@ -108,6 +118,26 @@
 //                        echo $todo;
 //                        die();
                         require_once 'config/include/parts/admin_panel/inventory.php';
+                    } elseif ($tool === 'po')
+                    {
+                        echo '<script src="js/po.js"></script>';
+                        if($view === 'view')
+                        {
+                            // get last po hd
+                            if(rowsOf('po_hd','none',$pdo) > 0)
+                            {
+                                // get last po
+                                $last_po_q = $db->db_connect()->query("SELECT entry_no from po_hd ORDER BY created_on desc limit 1");
+                                $last_po_r = $last_po_q->fetch(PDO::FETCH_ASSOC);
+                                $entry_no = $last_po_r['entry_no'];
+
+                            } else
+                            {
+                                setSession('view','new');
+                                reload();
+                            }
+                        }
+                        require_once 'config/include/parts/admin_panel/purchase_order.php';
                     }
                 ?>
             </div>

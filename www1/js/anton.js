@@ -1,6 +1,52 @@
 const token = document.getElementById('session_token').value;
+// date
+const today = new Date();
+const dd = String(today.getDate()).padStart(2, '0');
+const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+const hh = String(today.getHours())
+const mmm = String(today.getMinutes())
+const sss = String(today.getSeconds())
+const yyyy = today.getFullYear();
+const  toDay = yyyy + '-' + mm + '-' + dd;
+const current_time_stamp = yyyy + "-" + mm +"-" + dd + " " + hh + ":" + mmm + ":" + sss
 
+// instantiate classes
+const jqh = new J_query_supplies();
 // // AJAX FUNCTION
+
+function arr_disable(elements) {
+    var spl = elements.split(',');
+
+    for (let i = 0; i < spl.length; i++)
+    {
+        let id = "#"+spl[i];
+        $(id).prop('disabled',true)
+        //echo(id)
+    }
+}
+
+function arr_hide(elements) {
+    var spl = elements.split(',');
+
+    for (let i = 0; i < spl.length; i++)
+    {
+        let id = "#"+spl[i];
+        $(id).hide()
+        //echo(id)
+    }
+}
+
+function arr_enable(elements) {
+    var spl = elements.split(',');
+
+    for (let i = 0; i < spl.length; i++)
+    {
+        let id = "#"+spl[i];
+        $(id).prop('disabled',false)
+        //echo(id)
+    }
+}
+
 function xajax(url,variable,result_type,result_box)
 {
     var msgbox = document.getElementById(result_box); // message box
@@ -824,16 +870,16 @@ function append_table(target) {
             tr = "<tr id='"+row_id+"'>\n" +
                 "                                                            <td>"+sn+"</td>\n" +
                 "                                                            <td>\n" +
-                "                                                                <input type=\"text\" required class=\"form-control form-control-sm\" name=\"descdription[]\" id='"+desc_id+"'>\n" +
+                "                                                                <input type=\"text\" autocomplete='off' required class=\"form-control form-control-sm\" name='descr["+sn+"]' id='"+desc_id+"'>\n" +
                 "                                                            </td>\n" +
                 "                                                            <td>\n" +
-                "                                                                <input style=\"width: 100px\" type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" onkeyup= \"po_line('"+sn+"')\" name=\"unit_cost[]\" id='"+unit_id+"'>\n" +
+                "                                                                <input style=\"width: 100px\" autocomplete='off' type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" onkeyup= \"po_line('"+sn+"')\" name='unit_cost["+sn+"]' id='"+unit_id+"'>\n" +
                 "                                                            </td>\n" +
                 "                                                            <td>\n" +
-                "                                                                <input style=\"width: 100px\" type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" onkeyup= \"po_line('"+sn+"')\" name=\"qty[]\" id='"+qty_id+"'>\n" +
+                "                                                                <input style=\"width: 100px\" autocomplete='off' type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" onkeyup= \"po_line('"+sn+"')\" name='qty["+sn+"]' id='"+qty_id+"'>\n" +
                 "                                                            </td>\n" +
                 "                                                            <td>\n" +
-                "                                                                <input readonly style=\"width: 100px\" type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" name=\"total_cost[]\" id='"+total_id+"'>\n" +
+                "                                                                <input readonly style=\"width: 100px\" autocomplete='off' type=\"number\" required min=\"1\" class=\"form-control form-control-sm\" name='total_cost["+sn+"]' id='"+total_id+"'>\n" +
                 "                                                            </td>\n" +
                 "                                                            <td>\n" +
                 "                                                                <button onclick=\"remove_element('"+row_id+"')\" class=\"btn btn-sm btn-danger\" type=\"button\"><i class=\"fa fa-minus\"></i></button>\n" +
@@ -868,4 +914,9 @@ function percentage(rate,vale)
 
 function cl(params) { // console log
     console.log(params + '\n')
+}
+
+function echo(str)
+{
+    cl(str)
 }

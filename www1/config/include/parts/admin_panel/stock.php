@@ -55,7 +55,7 @@
                     <button data-toggle="modal" data-target="#PO" class="btn btn-sm btn-info ico-lg mr-2">
                         <i class="">PO</i>
                     </button>
-                    <div class="modal fade" id="PO">
+                    <div class="modal" id="PO">
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-body p-3">
@@ -78,7 +78,13 @@
                                                 <label class="w-50 mb-1 pr-1">
                                                     Location
                                                     <select name="loc" id="loc" class="form-control form-control-sm mt-2">
-                                                        <option value="001">Motors</option>
+                                                        <?php
+                                                            $loc_master = $pdo->query("SELECT * FROM loc_master");
+                                                            while($loc = $loc_master->fetch(PDO::FETCH_ASSOC))
+                                                            {
+                                                        ?>
+                                                            <option value="<?php echo $loc['loc_id'] ?>"><?php echo $loc['descr'] ?></option>
+                                                        <?php } ?>
                                                     </select>
                                                 </label>
                                                 <label class="w-50 mb-1 pl-1">
@@ -133,8 +139,8 @@
 
 
                                         <div class="w-100 pl-3 pr-3 d-flex flex-wrap justify-content-between">
-                                            <button type="button" id="save_new_po" name="new_bill" class="btn btn-success rounded-0">Save Bill</button>
-                                            <button data-dismiss="modal" type="button" name="new_bill" class="btn btn-warning rounded-0">Cancel</button>
+                                            <button type="button" id="save_new_po" class="btn btn-success rounded-0">Save Bill</button>
+                                            <button data-dismiss="modal" type="button" class="btn btn-warning rounded-0">Cancel</button>
                                         </div>
                                     </form>
                                 </div>

@@ -1406,1723 +1406,1721 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="383" parent="343" name="home_mainarticles">
+    <table id="383" parent="343" name="doc_serials">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="384" parent="343" name="invoice">
+    <table id="384" parent="343" name="home_mainarticles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="385" parent="343" name="invoice">
       <Comment>INVOICING TABLE</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="385" parent="343" name="loc_master">
+    <table id="386" parent="343" name="loc_master">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="386" parent="343" name="motors_cmms_stock_compare">
+    <table id="387" parent="343" name="motors_cmms_stock_compare">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="387" parent="343" name="motors_stock">
+    <table id="388" parent="343" name="motors_stock">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="388" parent="343" name="mt_ok">
+    <table id="389" parent="343" name="mt_ok">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="389" parent="343" name="mt_stock">
+    <table id="390" parent="343" name="mt_stock">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="390" parent="343" name="mt_stock_count">
+    <table id="391" parent="343" name="mt_stock_count">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="391" parent="343" name="mt_stock_count_final_bk">
+    <table id="392" parent="343" name="mt_stock_count_final_bk">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="392" parent="343" name="mt_stock_count_original">
+    <table id="393" parent="343" name="mt_stock_count_original">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="393" parent="343" name="mt_stock_filtered">
+    <table id="394" parent="343" name="mt_stock_filtered">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="394" parent="343" name="notifications">
+    <table id="395" parent="343" name="notifications">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="395" parent="343" name="recipe">
+    <table id="396" parent="343" name="po_hd">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="396" parent="343" name="sales">
+    <table id="397" parent="343" name="po_trans">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="397" parent="343" name="sessions">
+    <table id="398" parent="343" name="recipe">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="399" parent="343" name="sales">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="400" parent="343" name="sessions">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="398" parent="343" name="sp_ctock_count_before_motors">
+    <table id="401" parent="343" name="sp_ctock_count_before_motors">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="399" parent="343" name="sp_stock_count">
+    <table id="402" parent="343" name="sp_stock_count">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="400" parent="343" name="sp_stock_filtered">
+    <table id="403" parent="343" name="sp_stock_filtered">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="401" parent="343" name="sp_stock_test">
+    <table id="404" parent="343" name="sp_stock_test">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="402" parent="343" name="spintex_stock">
+    <table id="405" parent="343" name="spintex_stock">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="403" parent="343" name="stock_in">
+    <table id="406" parent="343" name="stock_in">
       <Comment>Stock Purchases</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="404" parent="343" name="task">
+    <table id="407" parent="343" name="task">
       <Comment>Task Manager</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="405" parent="343" name="task_tracking">
+    <table id="408" parent="343" name="task_tracking">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="406" parent="343" name="test_apps">
+    <table id="409" parent="343" name="test_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="407" parent="343" name="type_cpu">
+    <table id="410" parent="343" name="type_cpu">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="408" parent="343" name="user_56_apps">
+    <table id="411" parent="343" name="user_56_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="409" parent="343" name="user_79_apps">
+    <table id="412" parent="343" name="user_79_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="410" parent="343" name="user_91_apps">
+    <table id="413" parent="343" name="user_91_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="411" parent="343" name="user_92_apps">
+    <table id="414" parent="343" name="user_92_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="412" parent="343" name="user_93_apps">
+    <table id="415" parent="343" name="user_93_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="413" parent="343" name="user_94_apps">
+    <table id="416" parent="343" name="user_94_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="414" parent="343" name="user_95_apps">
+    <table id="417" parent="343" name="user_95_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="415" parent="343" name="user_96_apps">
+    <table id="418" parent="343" name="user_96_apps">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="416" parent="343" name="user_login_log">
+    <table id="419" parent="343" name="user_login_log">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="417" parent="343" name="users">
+    <table id="420" parent="343" name="users">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="418" parent="343" name="users_ual">
+    <table id="421" parent="343" name="users_ual">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="419" parent="343" name="videos">
+    <table id="422" parent="343" name="videos">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <column id="420" parent="357" name="id">
+    <column id="423" parent="357" name="id">
       <AutoIncrement>12</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="421" parent="357" name="uni">
+    <column id="424" parent="357" name="uni">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="422" parent="357" name="name">
+    <column id="425" parent="357" name="name">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="423" parent="357" name="type">
+    <column id="426" parent="357" name="type">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="424" parent="357" name="details">
+    <column id="427" parent="357" name="details">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="425" parent="357" name="path">
+    <column id="428" parent="357" name="path">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="426" parent="357" name="app_trigger">
+    <column id="429" parent="357" name="app_trigger">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="427" parent="357" name="sets">
+    <column id="430" parent="357" name="sets">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="428" parent="357" name="date_created">
+    <column id="431" parent="357" name="date_created">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="429" parent="357" name="icon">
+    <column id="432" parent="357" name="icon">
       <DataType>text|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="430" parent="357" name="installed">
+    <column id="433" parent="357" name="installed">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <key id="431" parent="357" name="PRIMARY">
+    <key id="434" parent="357" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="432" parent="358" name="id">
+    <column id="435" parent="358" name="id">
       <AutoIncrement>1909</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="433" parent="358" name="employe">
+    <column id="436" parent="358" name="employe">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="434" parent="358" name="stat">
+    <column id="437" parent="358" name="stat">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="435" parent="358" name="date_time">
+    <column id="438" parent="358" name="date_time">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="436" parent="358" name="status">
+    <column id="439" parent="358" name="status">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="437" parent="358" name="punch">
+    <column id="440" parent="358" name="punch">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <key id="438" parent="358" name="PRIMARY">
+    <key id="441" parent="358" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="439" parent="359" name="id">
+    <column id="442" parent="359" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="440" parent="359" name="name">
+    <column id="443" parent="359" name="name">
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="441" parent="359" name="name">
+    <index id="444" parent="359" name="name">
       <ColNames>name</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="442" parent="359" name="PRIMARY">
+    <key id="445" parent="359" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="443" parent="359" name="name">
+    <key id="446" parent="359" name="name">
       <ColNames>name</ColNames>
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
-    <column id="444" parent="360" name="id">
+    <column id="447" parent="360" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="445" parent="360" name="group_id">
+    <column id="448" parent="360" name="group_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="446" parent="360" name="permission_id">
+    <column id="449" parent="360" name="permission_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="447" parent="360" name="auth_group_permissions_group_id_b120cbf9_fk_auth_group_id">
+    <foreign-key id="450" parent="360" name="auth_group_permissions_group_id_b120cbf9_fk_auth_group_id">
       <ColNames>group_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_group</RefTableName>
     </foreign-key>
-    <foreign-key id="448" parent="360" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
+    <foreign-key id="451" parent="360" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
       <ColNames>permission_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_permission</RefTableName>
     </foreign-key>
-    <index id="449" parent="360" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+    <index id="452" parent="360" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
       <ColNames>group_id
 permission_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="450" parent="360" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
+    <index id="453" parent="360" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
       <ColNames>permission_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="451" parent="360" name="PRIMARY">
+    <key id="454" parent="360" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="452" parent="360" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+    <key id="455" parent="360" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
       <ColNames>group_id
 permission_id</ColNames>
       <UnderlyingIndexName>auth_group_permissions_group_id_permission_id_0cd325b0_uniq</UnderlyingIndexName>
     </key>
-    <column id="453" parent="361" name="id">
+    <column id="456" parent="361" name="id">
       <AutoIncrement>33</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="454" parent="361" name="name">
+    <column id="457" parent="361" name="name">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="455" parent="361" name="content_type_id">
+    <column id="458" parent="361" name="content_type_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="456" parent="361" name="codename">
+    <column id="459" parent="361" name="codename">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <foreign-key id="457" parent="361" name="auth_permission_content_type_id_2f476e4b_fk_django_co">
+    <foreign-key id="460" parent="361" name="auth_permission_content_type_id_2f476e4b_fk_django_co">
       <ColNames>content_type_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>django_content_type</RefTableName>
     </foreign-key>
-    <index id="458" parent="361" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+    <index id="461" parent="361" name="auth_permission_content_type_id_codename_01ab375a_uniq">
       <ColNames>content_type_id
 codename</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="459" parent="361" name="PRIMARY">
+    <key id="462" parent="361" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="460" parent="361" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+    <key id="463" parent="361" name="auth_permission_content_type_id_codename_01ab375a_uniq">
       <ColNames>content_type_id
 codename</ColNames>
       <UnderlyingIndexName>auth_permission_content_type_id_codename_01ab375a_uniq</UnderlyingIndexName>
     </key>
-    <column id="461" parent="362" name="id">
+    <column id="464" parent="362" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="462" parent="362" name="password">
+    <column id="465" parent="362" name="password">
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="463" parent="362" name="last_login">
+    <column id="466" parent="362" name="last_login">
       <DataType>datetime(6)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="464" parent="362" name="is_superuser">
+    <column id="467" parent="362" name="is_superuser">
       <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="465" parent="362" name="username">
+    <column id="468" parent="362" name="username">
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="466" parent="362" name="first_name">
+    <column id="469" parent="362" name="first_name">
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="467" parent="362" name="last_name">
+    <column id="470" parent="362" name="last_name">
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="468" parent="362" name="email">
+    <column id="471" parent="362" name="email">
       <DataType>varchar(254)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="469" parent="362" name="is_staff">
+    <column id="472" parent="362" name="is_staff">
       <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="470" parent="362" name="is_active">
+    <column id="473" parent="362" name="is_active">
       <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="471" parent="362" name="date_joined">
+    <column id="474" parent="362" name="date_joined">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <index id="472" parent="362" name="username">
+    <index id="475" parent="362" name="username">
       <ColNames>username</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="473" parent="362" name="PRIMARY">
+    <key id="476" parent="362" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="474" parent="362" name="username">
+    <key id="477" parent="362" name="username">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>
-    <column id="475" parent="363" name="id">
+    <column id="478" parent="363" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="476" parent="363" name="user_id">
+    <column id="479" parent="363" name="user_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="477" parent="363" name="group_id">
+    <column id="480" parent="363" name="group_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="478" parent="363" name="auth_user_groups_user_id_6a12ed8b_fk_auth_user_id">
+    <foreign-key id="481" parent="363" name="auth_user_groups_user_id_6a12ed8b_fk_auth_user_id">
       <ColNames>user_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_user</RefTableName>
     </foreign-key>
-    <foreign-key id="479" parent="363" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
+    <foreign-key id="482" parent="363" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
       <ColNames>group_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_group</RefTableName>
     </foreign-key>
-    <index id="480" parent="363" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+    <index id="483" parent="363" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
       <ColNames>user_id
 group_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="481" parent="363" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
+    <index id="484" parent="363" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
       <ColNames>group_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="482" parent="363" name="PRIMARY">
+    <key id="485" parent="363" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="483" parent="363" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+    <key id="486" parent="363" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
       <ColNames>user_id
 group_id</ColNames>
       <UnderlyingIndexName>auth_user_groups_user_id_group_id_94350c0c_uniq</UnderlyingIndexName>
     </key>
-    <column id="484" parent="364" name="id">
+    <column id="487" parent="364" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="485" parent="364" name="user_id">
+    <column id="488" parent="364" name="user_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="486" parent="364" name="permission_id">
+    <column id="489" parent="364" name="permission_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="487" parent="364" name="auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id">
+    <foreign-key id="490" parent="364" name="auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id">
       <ColNames>user_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_user</RefTableName>
     </foreign-key>
-    <foreign-key id="488" parent="364" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
+    <foreign-key id="491" parent="364" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
       <ColNames>permission_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_permission</RefTableName>
     </foreign-key>
-    <index id="489" parent="364" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+    <index id="492" parent="364" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
       <ColNames>user_id
 permission_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="490" parent="364" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
+    <index id="493" parent="364" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
       <ColNames>permission_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="491" parent="364" name="PRIMARY">
+    <key id="494" parent="364" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="492" parent="364" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+    <key id="495" parent="364" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
       <ColNames>user_id
 permission_id</ColNames>
       <UnderlyingIndexName>auth_user_user_permissions_user_id_permission_id_14a6b632_uniq</UnderlyingIndexName>
     </key>
-    <column id="493" parent="365" name="id">
+    <column id="496" parent="365" name="id">
       <AutoIncrement>1376</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="494" parent="365" name="loc">
+    <column id="497" parent="365" name="loc">
       <DataType>varchar(250)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="495" parent="365" name="bill_number">
+    <column id="498" parent="365" name="bill_number">
       <DataType>int(11)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="496" parent="365" name="mach_no">
+    <column id="499" parent="365" name="mach_no">
       <DataType>int(11)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="497" parent="365" name="clerk">
+    <column id="500" parent="365" name="clerk">
       <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="498" parent="365" name="transaction_type">
+    <column id="501" parent="365" name="transaction_type">
       <DataType>char(3)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="499" parent="365" name="item">
+    <column id="502" parent="365" name="item">
       <DataType>varchar(200)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="500" parent="365" name="qty">
+    <column id="503" parent="365" name="qty">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>8</Position>
     </column>
-    <column id="501" parent="365" name="un_price">
+    <column id="504" parent="365" name="un_price">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="502" parent="365" name="trans_amt">
+    <column id="505" parent="365" name="trans_amt">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="503" parent="365" name="trans_date">
+    <column id="506" parent="365" name="trans_date">
       <DataType>date|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="504" parent="365" name="line_no">
+    <column id="507" parent="365" name="line_no">
       <DataType>int(11)|0s</DataType>
       <Position>12</Position>
     </column>
-    <key id="505" parent="365" name="PRIMARY">
+    <key id="508" parent="365" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="506" parent="366" name="id">
+    <column id="509" parent="366" name="id">
       <AutoIncrement>11</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="507" parent="366" name="description">
+    <column id="510" parent="366" name="description">
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="508" parent="366" name="status">
+    <column id="511" parent="366" name="status">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="509" parent="366" name="created_at">
+    <column id="512" parent="366" name="created_at">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="510" parent="366" name="updated_at">
+    <column id="513" parent="366" name="updated_at">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="511" parent="366" name="owner">
+    <column id="514" parent="366" name="owner">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <key id="512" parent="366" name="PRIMARY">
+    <key id="515" parent="366" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="513" parent="367" name="id">
+    <column id="516" parent="367" name="id">
       <AutoIncrement>23</AutoIncrement>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="514" parent="367" name="uni">
+    <column id="517" parent="367" name="uni">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="515" parent="367" name="owner">
+    <column id="518" parent="367" name="owner">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="516" parent="367" name="date_created">
+    <column id="519" parent="367" name="date_created">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="517" parent="367" name="updated_at">
+    <column id="520" parent="367" name="updated_at">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="518" parent="367" name="status">
+    <column id="521" parent="367" name="status">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="519" parent="367" name="article">
+    <column id="522" parent="367" name="article">
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="520" parent="367" name="title">
+    <column id="523" parent="367" name="title">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="521" parent="367" name="tag">
+    <column id="524" parent="367" name="tag">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="522" parent="367" name="intro">
+    <column id="525" parent="367" name="intro">
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="523" parent="367" name="meta">
+    <column id="526" parent="367" name="meta">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="524" parent="367" name="image">
+    <column id="527" parent="367" name="image">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <key id="525" parent="367" name="PRIMARY">
+    <key id="528" parent="367" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="526" parent="368" name="id">
+    <column id="529" parent="368" name="id">
       <AutoIncrement>8</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="527" parent="368" name="ual">
+    <column id="530" parent="368" name="ual">
       <Comment>User Access Level</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="528" parent="368" name="first_name">
+    <column id="531" parent="368" name="first_name">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="529" parent="368" name="last_name">
+    <column id="532" parent="368" name="last_name">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="530" parent="368" name="username">
+    <column id="533" parent="368" name="username">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="531" parent="368" name="email">
+    <column id="534" parent="368" name="email">
       <DataType>text|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="532" parent="368" name="phone">
+    <column id="535" parent="368" name="phone">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="533" parent="368" name="extension">
+    <column id="536" parent="368" name="extension">
       <DataType>text|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="534" parent="368" name="gender">
+    <column id="537" parent="368" name="gender">
       <DataType>text|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="535" parent="368" name="token">
+    <column id="538" parent="368" name="token">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="536" parent="368" name="user_type">
+    <column id="539" parent="368" name="user_type">
       <DataType>text|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="537" parent="368" name="password_reset">
+    <column id="540" parent="368" name="password_reset">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="538" parent="368" name="acct_disabled">
+    <column id="541" parent="368" name="acct_disabled">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="539" parent="368" name="acct_del">
+    <column id="542" parent="368" name="acct_del">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="540" parent="368" name="theme">
+    <column id="543" parent="368" name="theme">
       <DataType>text|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="541" parent="368" name="date_created">
+    <column id="544" parent="368" name="date_created">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>16</Position>
     </column>
-    <column id="542" parent="368" name="last_seen">
+    <column id="545" parent="368" name="last_seen">
       <DataType>timestamp|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="543" parent="368" name="login_count">
+    <column id="546" parent="368" name="login_count">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>18</Position>
     </column>
-    <column id="544" parent="368" name="locked_time">
+    <column id="547" parent="368" name="locked_time">
       <DataType>datetime|0s</DataType>
       <Position>19</Position>
     </column>
-    <column id="545" parent="368" name="online">
+    <column id="548" parent="368" name="online">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>20</Position>
     </column>
-    <column id="546" parent="368" name="company">
+    <column id="549" parent="368" name="company">
       <DataType>text|0s</DataType>
       <Position>21</Position>
     </column>
-    <column id="547" parent="368" name="branch">
+    <column id="550" parent="368" name="branch">
       <DataType>text|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="548" parent="368" name="position">
+    <column id="551" parent="368" name="position">
       <DataType>text|0s</DataType>
       <Position>23</Position>
     </column>
-    <column id="549" parent="368" name="dp">
+    <column id="552" parent="368" name="dp">
       <DataType>text|0s</DataType>
       <Position>24</Position>
     </column>
-    <column id="550" parent="368" name="storage_quota">
+    <column id="553" parent="368" name="storage_quota">
       <DataType>text|0s</DataType>
       <Position>25</Position>
     </column>
-    <column id="551" parent="368" name="account_config">
+    <column id="554" parent="368" name="account_config">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>26</Position>
     </column>
-    <column id="552" parent="368" name="first_login">
+    <column id="555" parent="368" name="first_login">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
       <Position>27</Position>
     </column>
-    <column id="553" parent="368" name="meta_words">
+    <column id="556" parent="368" name="meta_words">
       <DataType>text|0s</DataType>
       <Position>28</Position>
     </column>
-    <key id="554" parent="368" name="PRIMARY">
+    <key id="557" parent="368" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="555" parent="369" name="id">
+    <column id="558" parent="369" name="id">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="556" parent="369" name="loc_id">
+    <column id="559" parent="369" name="loc_id">
       <DataType>char(3)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="557" parent="369" name="loc_desc">
+    <column id="560" parent="369" name="loc_desc">
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="558" parent="369" name="loc_type">
+    <column id="561" parent="369" name="loc_type">
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="559" parent="369" name="server_ip">
+    <column id="562" parent="369" name="server_ip">
       <DataType>varchar(20)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="560" parent="369" name="db">
+    <column id="563" parent="369" name="db">
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="561" parent="369" name="db_user">
+    <column id="564" parent="369" name="db_user">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="562" parent="369" name="db_password">
+    <column id="565" parent="369" name="db_password">
       <DataType>text|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="563" parent="370" name="id">
+    <column id="566" parent="370" name="id">
       <AutoIncrement>4</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="564" parent="370" name="desc">
+    <column id="567" parent="370" name="desc">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="565" parent="370" name="PRIMARY">
+    <key id="568" parent="370" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="566" parent="371" name="desc">
+    <column id="569" parent="371" name="desc">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="567" parent="371" name="id">
+    <column id="570" parent="371" name="id">
       <AutoIncrement>4</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="568" parent="371" name="PRIMARY">
+    <key id="571" parent="371" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="569" parent="372" name="id">
+    <column id="572" parent="372" name="id">
       <AutoIncrement>2</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="570" parent="372" name="message_id">
+    <column id="573" parent="372" name="message_id">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="571" parent="372" name="msg_group">
+    <column id="574" parent="372" name="msg_group">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="572" parent="372" name="status">
+    <column id="575" parent="372" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="573" parent="372" name="recipient">
+    <column id="576" parent="372" name="recipient">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="574" parent="372" name="recipient_phone">
+    <column id="577" parent="372" name="recipient_phone">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="575" parent="372" name="error">
+    <column id="578" parent="372" name="error">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="576" parent="372" name="message_id">
+    <index id="579" parent="372" name="message_id">
       <ColNames>message_id</ColNames>
       <PrefixLengths>768</PrefixLengths>
       <Type>btree</Type>
     </index>
-    <key id="577" parent="372" name="PRIMARY">
+    <key id="580" parent="372" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="578" parent="373" name="message_id">
+    <column id="581" parent="373" name="message_id">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="579" parent="373" name="message_group">
+    <column id="582" parent="373" name="message_group">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="580" parent="373" name="message">
+    <column id="583" parent="373" name="message">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="581" parent="373" name="owner">
+    <column id="584" parent="373" name="owner">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="582" parent="374" name="id">
+    <column id="585" parent="374" name="id">
       <AutoIncrement>4562</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="583" parent="374" name="synced">
+    <column id="586" parent="374" name="synced">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>2</Position>
     </column>
-    <column id="584" parent="374" name="first_name">
+    <column id="587" parent="374" name="first_name">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="585" parent="374" name="other_name">
+    <column id="588" parent="374" name="other_name">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="586" parent="374" name="last_name">
+    <column id="589" parent="374" name="last_name">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="587" parent="374" name="gender">
+    <column id="590" parent="374" name="gender">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="588" parent="374" name="phone">
+    <column id="591" parent="374" name="phone">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="589" parent="374" name="email">
+    <column id="592" parent="374" name="email">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="590" parent="374" name="location">
+    <column id="593" parent="374" name="location">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="591" parent="374" name="date_created">
+    <column id="594" parent="374" name="date_created">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="592" parent="374" name="owner">
+    <column id="595" parent="374" name="owner">
       <DataType>varchar(20)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="593" parent="374" name="stat">
+    <column id="596" parent="374" name="stat">
       <DataType>varchar(20)|0s</DataType>
       <DefaultExpression>&apos;pending&apos;</DefaultExpression>
       <Position>12</Position>
     </column>
-    <column id="594" parent="374" name="card_no">
+    <column id="597" parent="374" name="card_no">
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="595" parent="374" name="updated_time">
+    <column id="598" parent="374" name="updated_time">
       <DataType>varchar(50)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="596" parent="374" name="reg_by">
+    <column id="599" parent="374" name="reg_by">
       <DataType>text|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="597" parent="374" name="reg_time">
+    <column id="600" parent="374" name="reg_time">
       <DataType>text|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="598" parent="374" name="given_by">
+    <column id="601" parent="374" name="given_by">
       <DataType>text|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="599" parent="374" name="given_time">
+    <column id="602" parent="374" name="given_time">
       <DataType>text|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="600" parent="374" name="id_card">
+    <column id="603" parent="374" name="id_card">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>19</Position>
     </column>
-    <column id="601" parent="374" name="v2">
+    <column id="604" parent="374" name="v2">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>20</Position>
     </column>
-    <column id="602" parent="374" name="date_created_x">
+    <column id="605" parent="374" name="date_created_x">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>21</Position>
     </column>
-    <column id="603" parent="374" name="date_of_birth">
+    <column id="606" parent="374" name="date_of_birth">
       <DataType>date|0s</DataType>
       <Position>22</Position>
     </column>
-    <index id="604" parent="374" name="card_no_UNIQUE">
+    <index id="607" parent="374" name="card_no_UNIQUE">
       <ColNames>card_no</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="605" parent="374" name="PRIMARY">
+    <key id="608" parent="374" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="606" parent="374" name="card_no_UNIQUE">
+    <key id="609" parent="374" name="card_no_UNIQUE">
       <ColNames>card_no</ColNames>
       <UnderlyingIndexName>card_no_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="607" parent="375" name="id">
+    <column id="610" parent="375" name="id">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="608" parent="375" name="synced">
+    <column id="611" parent="375" name="synced">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>2</Position>
     </column>
-    <column id="609" parent="375" name="first_name">
+    <column id="612" parent="375" name="first_name">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="610" parent="375" name="other_name">
+    <column id="613" parent="375" name="other_name">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="611" parent="375" name="last_name">
+    <column id="614" parent="375" name="last_name">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="612" parent="375" name="gender">
+    <column id="615" parent="375" name="gender">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="613" parent="375" name="phone">
+    <column id="616" parent="375" name="phone">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="614" parent="375" name="email">
+    <column id="617" parent="375" name="email">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="615" parent="375" name="location">
+    <column id="618" parent="375" name="location">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="616" parent="375" name="date_created">
+    <column id="619" parent="375" name="date_created">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="617" parent="375" name="owner">
+    <column id="620" parent="375" name="owner">
       <DataType>varchar(20)|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="618" parent="375" name="stat">
+    <column id="621" parent="375" name="stat">
       <DataType>varchar(20)|0s</DataType>
       <DefaultExpression>&apos;pending&apos;</DefaultExpression>
       <Position>12</Position>
     </column>
-    <column id="619" parent="375" name="card_no">
+    <column id="622" parent="375" name="card_no">
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="620" parent="375" name="updated_time">
+    <column id="623" parent="375" name="updated_time">
       <DataType>varchar(50)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="621" parent="375" name="reg_by">
+    <column id="624" parent="375" name="reg_by">
       <DataType>text|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="622" parent="375" name="reg_time">
+    <column id="625" parent="375" name="reg_time">
       <DataType>text|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="623" parent="375" name="given_by">
+    <column id="626" parent="375" name="given_by">
       <DataType>text|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="624" parent="375" name="given_time">
+    <column id="627" parent="375" name="given_time">
       <DataType>text|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="625" parent="375" name="id_card">
+    <column id="628" parent="375" name="id_card">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>19</Position>
     </column>
-    <column id="626" parent="375" name="v2">
+    <column id="629" parent="375" name="v2">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>20</Position>
     </column>
-    <column id="627" parent="375" name="date_created_x">
+    <column id="630" parent="375" name="date_created_x">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>21</Position>
     </column>
-    <column id="628" parent="375" name="date_of_birth">
+    <column id="631" parent="375" name="date_of_birth">
       <DataType>date|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="629" parent="376" name="desc">
+    <column id="632" parent="376" name="desc">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="630" parent="376" name="id">
+    <column id="633" parent="376" name="id">
       <AutoIncrement>9</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="631" parent="376" name="PRIMARY">
+    <key id="634" parent="376" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="632" parent="377" name="id">
+    <column id="635" parent="377" name="id">
       <AutoIncrement>13</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="633" parent="377" name="device">
+    <column id="636" parent="377" name="device">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="634" parent="377" name="part">
+    <column id="637" parent="377" name="part">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="635" parent="377" name="new">
+    <column id="638" parent="377" name="new">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="636" parent="377" name="reason">
+    <column id="639" parent="377" name="reason">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="637" parent="377" name="date_maintained">
+    <column id="640" parent="377" name="date_maintained">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>6</Position>
     </column>
-    <key id="638" parent="377" name="PRIMARY">
+    <key id="641" parent="377" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="639" parent="378" name="id">
+    <column id="642" parent="378" name="id">
       <AutoIncrement>37</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="640" parent="378" name="uni">
+    <column id="643" parent="378" name="uni">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="641" parent="378" name="ip_addr">
+    <column id="644" parent="378" name="ip_addr">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="642" parent="378" name="user">
+    <column id="645" parent="378" name="user">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="643" parent="378" name="department">
+    <column id="646" parent="378" name="department">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="644" parent="378" name="cpu_type">
+    <column id="647" parent="378" name="cpu_type">
       <DataType>varchar(20)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="645" parent="378" name="cpu">
+    <column id="648" parent="378" name="cpu">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="646" parent="378" name="cpu_model">
+    <column id="649" parent="378" name="cpu_model">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="647" parent="378" name="cpu_serial">
+    <column id="650" parent="378" name="cpu_serial">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="648" parent="378" name="hdd_size">
+    <column id="651" parent="378" name="hdd_size">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="649" parent="378" name="ram_size">
+    <column id="652" parent="378" name="ram_size">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="650" parent="378" name="ram_type">
+    <column id="653" parent="378" name="ram_type">
       <DataType>varchar(10)|0s</DataType>
       <Position>12</Position>
     </column>
-    <column id="651" parent="378" name="processor">
+    <column id="654" parent="378" name="processor">
       <DataType>text|0s</DataType>
       <Position>13</Position>
     </column>
-    <column id="652" parent="378" name="monitor_brand">
+    <column id="655" parent="378" name="monitor_brand">
       <DataType>int(11)|0s</DataType>
       <Position>14</Position>
     </column>
-    <column id="653" parent="378" name="monitor_model">
+    <column id="656" parent="378" name="monitor_model">
       <DataType>text|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="654" parent="378" name="monitor_serial">
+    <column id="657" parent="378" name="monitor_serial">
       <DataType>text|0s</DataType>
       <Position>16</Position>
     </column>
-    <column id="655" parent="378" name="monitor_dimension">
+    <column id="658" parent="378" name="monitor_dimension">
       <DataType>text|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="656" parent="378" name="phe_ups">
+    <column id="659" parent="378" name="phe_ups">
       <DataType>text|0s</DataType>
       <Position>18</Position>
     </column>
-    <column id="657" parent="378" name="phe_printer">
+    <column id="660" parent="378" name="phe_printer">
       <DataType>text|0s</DataType>
       <Position>19</Position>
     </column>
-    <column id="658" parent="378" name="mouse">
+    <column id="661" parent="378" name="mouse">
       <DataType>text|0s</DataType>
       <Position>20</Position>
     </column>
-    <column id="659" parent="378" name="keyboard">
+    <column id="662" parent="378" name="keyboard">
       <DataType>text|0s</DataType>
       <Position>21</Position>
     </column>
-    <column id="660" parent="378" name="os">
+    <column id="663" parent="378" name="os">
       <DataType>text|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="661" parent="378" name="type">
+    <column id="664" parent="378" name="type">
       <DataType>varchar(50)|0s</DataType>
       <DefaultExpression>&apos;ws&apos;</DefaultExpression>
       <Position>23</Position>
     </column>
-    <column id="662" parent="378" name="details">
+    <column id="665" parent="378" name="details">
       <DataType>text|0s</DataType>
       <Position>24</Position>
     </column>
-    <column id="663" parent="378" name="branch">
+    <column id="666" parent="378" name="branch">
       <DataType>text|0s</DataType>
       <Position>25</Position>
     </column>
-    <key id="664" parent="378" name="PRIMARY">
+    <key id="667" parent="378" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <check id="665" parent="379" name="django_admin_log_chk_1">
+    <check id="668" parent="379" name="django_admin_log_chk_1">
       <NameSurrogate>1</NameSurrogate>
       <Predicate>`action_flag` &gt;= 0</Predicate>
     </check>
-    <column id="666" parent="379" name="id">
+    <column id="669" parent="379" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="667" parent="379" name="action_time">
+    <column id="670" parent="379" name="action_time">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="668" parent="379" name="object_id">
+    <column id="671" parent="379" name="object_id">
       <DataType>longtext|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="669" parent="379" name="object_repr">
+    <column id="672" parent="379" name="object_repr">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="670" parent="379" name="action_flag">
+    <column id="673" parent="379" name="action_flag">
       <DataType>smallint(5) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="671" parent="379" name="change_message">
+    <column id="674" parent="379" name="change_message">
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="672" parent="379" name="content_type_id">
+    <column id="675" parent="379" name="content_type_id">
       <DataType>int(11)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="673" parent="379" name="user_id">
+    <column id="676" parent="379" name="user_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <foreign-key id="674" parent="379" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
+    <foreign-key id="677" parent="379" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
       <ColNames>content_type_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>django_content_type</RefTableName>
     </foreign-key>
-    <foreign-key id="675" parent="379" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
+    <foreign-key id="678" parent="379" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
       <ColNames>user_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>auth_user</RefTableName>
     </foreign-key>
-    <index id="676" parent="379" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
+    <index id="679" parent="379" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
       <ColNames>content_type_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="677" parent="379" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
+    <index id="680" parent="379" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="678" parent="379" name="PRIMARY">
+    <key id="681" parent="379" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="679" parent="380" name="id">
+    <column id="682" parent="380" name="id">
       <AutoIncrement>9</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="680" parent="380" name="app_label">
+    <column id="683" parent="380" name="app_label">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="681" parent="380" name="model">
+    <column id="684" parent="380" name="model">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <index id="682" parent="380" name="django_content_type_app_label_model_76bd3d3b_uniq">
+    <index id="685" parent="380" name="django_content_type_app_label_model_76bd3d3b_uniq">
       <ColNames>app_label
 model</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="683" parent="380" name="PRIMARY">
+    <key id="686" parent="380" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="684" parent="380" name="django_content_type_app_label_model_76bd3d3b_uniq">
+    <key id="687" parent="380" name="django_content_type_app_label_model_76bd3d3b_uniq">
       <ColNames>app_label
 model</ColNames>
       <UnderlyingIndexName>django_content_type_app_label_model_76bd3d3b_uniq</UnderlyingIndexName>
     </key>
-    <column id="685" parent="381" name="id">
+    <column id="688" parent="381" name="id">
       <AutoIncrement>21</AutoIncrement>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="686" parent="381" name="app">
+    <column id="689" parent="381" name="app">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="687" parent="381" name="name">
+    <column id="690" parent="381" name="name">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="688" parent="381" name="applied">
+    <column id="691" parent="381" name="applied">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="689" parent="381" name="PRIMARY">
+    <key id="692" parent="381" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="690" parent="382" name="session_key">
+    <column id="693" parent="382" name="session_key">
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="691" parent="382" name="session_data">
+    <column id="694" parent="382" name="session_data">
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="692" parent="382" name="expire_date">
+    <column id="695" parent="382" name="expire_date">
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <index id="693" parent="382" name="django_session_expire_date_a5c62663">
+    <index id="696" parent="382" name="django_session_expire_date_a5c62663">
       <ColNames>expire_date</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="694" parent="382" name="PRIMARY">
+    <key id="697" parent="382" name="PRIMARY">
       <ColNames>session_key</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="695" parent="383" name="uni">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="698" parent="383" name="doc">
+      <DataType>char(3)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="696" parent="383" name="owner">
+    <column id="699" parent="383" name="descr">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="697" parent="383" name="date_created">
+    <column id="700" parent="383" name="season">
+      <DataType>char(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="701" parent="383" name="last_doc">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <key id="702" parent="383" name="PRIMARY">
+      <ColNames>doc</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="703" parent="384" name="uni">
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="704" parent="384" name="owner">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="705" parent="384" name="date_created">
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="698" parent="383" name="status">
+    <column id="706" parent="384" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="699" parent="383" name="id">
+    <column id="707" parent="384" name="id">
       <AutoIncrement>19</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="700" parent="383" name="article">
+    <column id="708" parent="384" name="article">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="701" parent="383" name="title">
+    <column id="709" parent="384" name="title">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="702" parent="383" name="tag">
+    <column id="710" parent="384" name="tag">
       <DataType>varchar(200)|0s</DataType>
       <DefaultExpression>&apos;Others&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="703" parent="383" name="meta">
+    <column id="711" parent="384" name="meta">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <index id="704" parent="383" name="uni">
+    <index id="712" parent="384" name="uni">
       <ColNames>uni</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="705" parent="383" name="PRIMARY">
+    <key id="713" parent="384" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="706" parent="383" name="uni">
+    <key id="714" parent="384" name="uni">
       <ColNames>uni</ColNames>
       <UnderlyingIndexName>uni</UnderlyingIndexName>
     </key>
-    <column id="707" parent="384" name="idinvoice">
-      <AutoIncrement>7</AutoIncrement>
+    <column id="715" parent="385" name="idinvoice">
+      <AutoIncrement>12</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="708" parent="384" name="supp">
+    <column id="716" parent="385" name="supp">
       <DataType>varchar(45)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="709" parent="384" name="inv_num">
-      <DataType>varchar(45)|0s</DataType>
+    <column id="717" parent="385" name="inv_num">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="710" parent="384" name="date_stamp">
+    <column id="718" parent="385" name="date_stamp">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>4</Position>
     </column>
-    <column id="711" parent="384" name="tax_rate">
+    <column id="719" parent="385" name="tax_rate">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>5</Position>
     </column>
-    <key id="712" parent="384" name="PRIMARY">
+    <index id="720" parent="385" name="invoice_inv_num_uindex">
+      <ColNames>inv_num</ColNames>
+      <Type>hash</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="721" parent="385" name="PRIMARY">
       <ColNames>idinvoice</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="713" parent="385" name="loc_id">
+    <key id="722" parent="385" name="invoice_inv_num_uindex">
+      <ColNames>inv_num</ColNames>
+      <UnderlyingIndexName>invoice_inv_num_uindex</UnderlyingIndexName>
+    </key>
+    <column id="723" parent="386" name="loc_id">
       <DataType>char(3)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="714" parent="385" name="descr">
+    <column id="724" parent="386" name="descr">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="715" parent="385" name="PRIMARY">
+    <key id="725" parent="386" name="PRIMARY">
       <ColNames>loc_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="716" parent="386" name="id">
+    <column id="726" parent="387" name="id">
       <AutoIncrement>465</AutoIncrement>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="717" parent="386" name="time_added">
+    <column id="727" parent="387" name="time_added">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="718" parent="386" name="barcode">
+    <column id="728" parent="387" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="719" parent="386" name="quantity">
+    <column id="729" parent="387" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="720" parent="386" name="owner">
+    <column id="730" parent="387" name="owner">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="721" parent="386" name="desc">
+    <column id="731" parent="387" name="desc">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="722" parent="386" name="description">
+    <column id="732" parent="387" name="description">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>7</Position>
     </column>
-    <column id="723" parent="386" name="loc">
+    <column id="733" parent="387" name="loc">
       <DataType>varchar(100)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>8</Position>
     </column>
-    <column id="724" parent="386" name="checked">
+    <column id="734" parent="387" name="checked">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="725" parent="386" name="found">
+    <column id="735" parent="387" name="found">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>10</Position>
     </column>
-    <key id="726" parent="386" name="PRIMARY">
+    <key id="736" parent="387" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="727" parent="387" name="id">
+    <column id="737" parent="388" name="id">
       <DataType>int(10) unsigned|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="728" parent="387" name="barcode">
+    <column id="738" parent="388" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="729" parent="387" name="quantity">
+    <column id="739" parent="388" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
-    </column>
-    <column id="730" parent="387" name="checked">
-      <DataType>int(11)|0s</DataType>
-      <DefaultExpression>0</DefaultExpression>
-      <Position>4</Position>
-    </column>
-    <column id="731" parent="387" name="found">
-      <DataType>int(11)|0s</DataType>
-      <DefaultExpression>0</DefaultExpression>
-      <Position>5</Position>
-    </column>
-    <column id="732" parent="388" name="id">
-      <DataType>int(10) unsigned|0s</DataType>
-      <DefaultExpression>0</DefaultExpression>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="733" parent="388" name="time_added">
-      <DataType>timestamp|0s</DataType>
-      <DefaultExpression>current_timestamp()</DefaultExpression>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="734" parent="388" name="barcode">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="735" parent="388" name="quantity">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="736" parent="388" name="owner">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="737" parent="388" name="desc">
-      <DataType>varchar(1000)|0s</DataType>
-      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
-      <Position>6</Position>
-    </column>
-    <column id="738" parent="388" name="description">
-      <DataType>varchar(1000)|0s</DataType>
-      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
-      <Position>7</Position>
-    </column>
-    <column id="739" parent="388" name="loc">
-      <DataType>varchar(100)|0s</DataType>
-      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
-      <Position>8</Position>
     </column>
     <column id="740" parent="388" name="checked">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
-      <Position>9</Position>
+      <Position>4</Position>
     </column>
     <column id="741" parent="388" name="found">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
-      <Position>10</Position>
+      <Position>5</Position>
     </column>
     <column id="742" parent="389" name="id">
       <DataType>int(10) unsigned|0s</DataType>
@@ -3130,77 +3128,77 @@ model</ColNames>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="743" parent="389" name="barcode">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="744" parent="389" name="quantity">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="745" parent="389" name="description">
-      <DataType>varchar(1000)|0s</DataType>
-      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
-      <Position>4</Position>
-    </column>
-    <column id="746" parent="389" name="checked">
-      <DataType>int(11)|0s</DataType>
-      <DefaultExpression>0</DefaultExpression>
-      <Position>5</Position>
-    </column>
-    <column id="747" parent="389" name="found">
-      <DataType>int(11)|0s</DataType>
-      <DefaultExpression>0</DefaultExpression>
-      <Position>6</Position>
-    </column>
-    <column id="748" parent="390" name="id">
-      <DataType>int(10) unsigned|0s</DataType>
-      <DefaultExpression>0</DefaultExpression>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="749" parent="390" name="time_added">
+    <column id="743" parent="389" name="time_added">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="750" parent="390" name="barcode">
+    <column id="744" parent="389" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="751" parent="390" name="quantity">
+    <column id="745" parent="389" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="752" parent="390" name="owner">
+    <column id="746" parent="389" name="owner">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="753" parent="390" name="desc">
+    <column id="747" parent="389" name="desc">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="754" parent="390" name="description">
+    <column id="748" parent="389" name="description">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>7</Position>
     </column>
-    <column id="755" parent="390" name="loc">
+    <column id="749" parent="389" name="loc">
       <DataType>varchar(100)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>8</Position>
     </column>
-    <column id="756" parent="390" name="checked">
+    <column id="750" parent="389" name="checked">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="757" parent="390" name="found">
+    <column id="751" parent="389" name="found">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>10</Position>
+    </column>
+    <column id="752" parent="390" name="id">
+      <DataType>int(10) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="753" parent="390" name="barcode">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="754" parent="390" name="quantity">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="755" parent="390" name="description">
+      <DataType>varchar(1000)|0s</DataType>
+      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <column id="756" parent="390" name="checked">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>5</Position>
+    </column>
+    <column id="757" parent="390" name="found">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>6</Position>
     </column>
     <column id="758" parent="391" name="id">
       <DataType>int(10) unsigned|0s</DataType>
@@ -3233,11 +3231,11 @@ model</ColNames>
     </column>
     <column id="764" parent="391" name="description">
       <DataType>varchar(1000)|0s</DataType>
-      <DefaultExpression>&apos;mt_stock_count.desc&apos;</DefaultExpression>
+      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>7</Position>
     </column>
     <column id="765" parent="391" name="loc">
-      <DataType>varchar(200)|0s</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>8</Position>
     </column>
@@ -3324,959 +3322,1124 @@ model</ColNames>
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="783" parent="393" name="description">
+    <column id="783" parent="393" name="desc">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="784" parent="394" name="id">
+    <column id="784" parent="393" name="description">
+      <DataType>varchar(1000)|0s</DataType>
+      <DefaultExpression>&apos;mt_stock_count.desc&apos;</DefaultExpression>
+      <Position>7</Position>
+    </column>
+    <column id="785" parent="393" name="loc">
+      <DataType>varchar(200)|0s</DataType>
+      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
+      <Position>8</Position>
+    </column>
+    <column id="786" parent="393" name="checked">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>9</Position>
+    </column>
+    <column id="787" parent="393" name="found">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>10</Position>
+    </column>
+    <column id="788" parent="394" name="id">
+      <DataType>int(10) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="789" parent="394" name="time_added">
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="790" parent="394" name="barcode">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="791" parent="394" name="quantity">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="792" parent="394" name="owner">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="793" parent="394" name="description">
+      <DataType>varchar(1000)|0s</DataType>
+      <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <column id="794" parent="395" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="785" parent="394" name="user">
+    <column id="795" parent="395" name="user">
       <DataType>int(11)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="786" parent="394" name="title">
+    <column id="796" parent="395" name="title">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="787" parent="394" name="description">
+    <column id="797" parent="395" name="description">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="788" parent="394" name="date_added">
+    <column id="798" parent="395" name="date_added">
       <DataType>datetime|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="789" parent="394" name="notificationscol">
+    <column id="799" parent="395" name="notificationscol">
       <DataType>varchar(45)|0s</DataType>
       <DefaultExpression>&apos;current_timestamp()&apos;</DefaultExpression>
       <Position>6</Position>
     </column>
-    <key id="790" parent="394" name="PRIMARY">
+    <key id="800" parent="395" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="791" parent="395" name="id">
+    <column id="801" parent="396" name="entry_no">
+      <DataType>varchar(13)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="802" parent="396" name="supplier">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="803" parent="396" name="supplier_contact">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="804" parent="396" name="loc">
+      <DataType>char(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="805" parent="396" name="remarks">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="806" parent="396" name="gross">
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <DefaultExpression>0.00</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <column id="807" parent="396" name="discount">
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <DefaultExpression>0.00</DefaultExpression>
+      <Position>7</Position>
+    </column>
+    <column id="808" parent="396" name="net">
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <DefaultExpression>0.00</DefaultExpression>
+      <Position>8</Position>
+    </column>
+    <column id="809" parent="396" name="created_on">
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="810" parent="396" name="created_by">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="811" parent="396" name="status">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>11</Position>
+    </column>
+    <column id="812" parent="396" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <index id="813" parent="396" name="id">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="814" parent="396" name="PRIMARY">
+      <ColNames>entry_no</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="815" parent="396" name="id">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id</UnderlyingIndexName>
+    </key>
+    <column id="816" parent="397" name="entry_no">
+      <DataType>varchar(12)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="817" parent="397" name="line">
+      <DataType>int(11)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="818" parent="397" name="descr">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="819" parent="397" name="unit_cost">
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <DefaultExpression>0.00</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <column id="820" parent="397" name="qty">
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <DefaultExpression>0.00</DefaultExpression>
+      <Position>5</Position>
+    </column>
+    <column id="821" parent="397" name="total_cost">
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <DefaultExpression>0.00</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <column id="822" parent="397" name="created_on">
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="823" parent="397" name="created_by">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="824" parent="398" name="id">
       <AutoIncrement>826</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="792" parent="395" name="parent">
+    <column id="825" parent="398" name="parent">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="793" parent="395" name="item_des">
+    <column id="826" parent="398" name="item_des">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="794" parent="395" name="qty">
+    <column id="827" parent="398" name="qty">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>4</Position>
     </column>
-    <column id="795" parent="395" name="unit">
+    <column id="828" parent="398" name="unit">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <key id="796" parent="395" name="PRIMARY">
+    <key id="829" parent="398" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="797" parent="396" name="id">
+    <column id="830" parent="399" name="id">
       <AutoIncrement>18637</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="798" parent="396" name="loc">
+    <column id="831" parent="399" name="loc">
       <DataType>char(3)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="799" parent="396" name="mech_no">
+    <column id="832" parent="399" name="mech_no">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="800" parent="396" name="gross_sales">
+    <column id="833" parent="399" name="gross_sales">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>4</Position>
     </column>
-    <column id="801" parent="396" name="tax">
+    <column id="834" parent="399" name="tax">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>5</Position>
     </column>
-    <column id="802" parent="396" name="discount">
+    <column id="835" parent="399" name="discount">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="803" parent="396" name="net_sales">
+    <column id="836" parent="399" name="net_sales">
       <DataType>decimal(10,2 digit)|0s</DataType>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>7</Position>
     </column>
-    <column id="804" parent="396" name="day">
+    <column id="837" parent="399" name="day">
       <DataType>varchar(255)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="805" parent="396" name="place">
+    <column id="838" parent="399" name="place">
       <DataType>char(13)|0s</DataType>
       <DefaultExpression>&apos;retail&apos;</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="806" parent="396" name="loc_desc">
+    <column id="839" parent="399" name="loc_desc">
       <DataType>text|0s</DataType>
       <Position>10</Position>
     </column>
-    <key id="807" parent="396" name="PRIMARY">
+    <key id="840" parent="399" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="808" parent="397" name="session_id">
+    <column id="841" parent="400" name="session_id">
       <DataType>char(48)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="809" parent="397" name="init_unixtime">
+    <column id="842" parent="400" name="init_unixtime">
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="810" parent="397" name="last_request_unixtime">
+    <column id="843" parent="400" name="last_request_unixtime">
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="811" parent="397" name="expire_unixtime">
+    <column id="844" parent="400" name="expire_unixtime">
       <DataType>bigint(20) unsigned|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="812" parent="397" name="request_signature">
+    <column id="845" parent="400" name="request_signature">
       <DataType>varchar(96)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="813" parent="397" name="writes">
+    <column id="846" parent="400" name="writes">
       <DataType>int(10) unsigned|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="814" parent="397" name="data">
+    <column id="847" parent="400" name="data">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="815" parent="397" name="session_id_UNIQUE">
+    <index id="848" parent="400" name="session_id_UNIQUE">
       <ColNames>session_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="816" parent="397" name="PRIMARY">
+    <key id="849" parent="400" name="PRIMARY">
       <ColNames>session_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="817" parent="397" name="session_id_UNIQUE">
+    <key id="850" parent="400" name="session_id_UNIQUE">
       <ColNames>session_id</ColNames>
       <UnderlyingIndexName>session_id_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="818" parent="398" name="id">
+    <column id="851" parent="401" name="id">
       <DataType>int(10) unsigned|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="819" parent="398" name="time_added">
+    <column id="852" parent="401" name="time_added">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="820" parent="398" name="barcode">
+    <column id="853" parent="401" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="821" parent="398" name="quantity">
+    <column id="854" parent="401" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="822" parent="398" name="owner">
+    <column id="855" parent="401" name="owner">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="823" parent="399" name="id">
+    <column id="856" parent="402" name="id">
       <AutoIncrement>461</AutoIncrement>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="824" parent="399" name="time_added">
+    <column id="857" parent="402" name="time_added">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="825" parent="399" name="barcode">
+    <column id="858" parent="402" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="826" parent="399" name="quantity">
+    <column id="859" parent="402" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="827" parent="399" name="owner">
+    <column id="860" parent="402" name="owner">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="828" parent="399" name="desc">
+    <column id="861" parent="402" name="desc">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="829" parent="399" name="description">
+    <column id="862" parent="402" name="description">
       <DataType>varchar(1000)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>7</Position>
     </column>
-    <column id="830" parent="399" name="loc">
+    <column id="863" parent="402" name="loc">
       <DataType>varchar(100)|0s</DataType>
       <DefaultExpression>&apos;unknown&apos;</DefaultExpression>
       <Position>8</Position>
     </column>
-    <column id="831" parent="399" name="checked">
+    <column id="864" parent="402" name="checked">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="832" parent="399" name="found">
+    <column id="865" parent="402" name="found">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>10</Position>
     </column>
-    <key id="833" parent="399" name="PRIMARY">
+    <key id="866" parent="402" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="834" parent="400" name="id">
+    <column id="867" parent="403" name="id">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="835" parent="400" name="barcode">
+    <column id="868" parent="403" name="barcode">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="836" parent="400" name="item_code">
+    <column id="869" parent="403" name="item_code">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="837" parent="400" name="description">
+    <column id="870" parent="403" name="description">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="838" parent="400" name="physical">
+    <column id="871" parent="403" name="physical">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="839" parent="400" name="db_stock">
+    <column id="872" parent="403" name="db_stock">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="840" parent="400" name="diff">
+    <column id="873" parent="403" name="diff">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="841" parent="400" name="ip_add">
+    <column id="874" parent="403" name="ip_add">
       <DataType>text|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="842" parent="401" name="id">
+    <column id="875" parent="404" name="id">
       <DataType>int(10) unsigned|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="843" parent="401" name="time_added">
+    <column id="876" parent="404" name="time_added">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="844" parent="401" name="barcode">
+    <column id="877" parent="404" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="845" parent="401" name="quantity">
+    <column id="878" parent="404" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="846" parent="401" name="owner">
+    <column id="879" parent="404" name="owner">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="847" parent="401" name="checked">
+    <column id="880" parent="404" name="checked">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="848" parent="401" name="item_found">
+    <column id="881" parent="404" name="item_found">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>7</Position>
     </column>
-    <column id="849" parent="402" name="id">
+    <column id="882" parent="405" name="id">
       <DataType>int(10) unsigned|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="850" parent="402" name="barcode">
+    <column id="883" parent="405" name="barcode">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="851" parent="402" name="quantity">
+    <column id="884" parent="405" name="quantity">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="852" parent="402" name="checked">
+    <column id="885" parent="405" name="checked">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>4</Position>
     </column>
-    <column id="853" parent="402" name="found">
+    <column id="886" parent="405" name="found">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>5</Position>
     </column>
-    <column id="854" parent="403" name="idstock_in">
-      <AutoIncrement>19</AutoIncrement>
+    <column id="887" parent="406" name="idstock_in">
+      <AutoIncrement>20</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="855" parent="403" name="item">
+    <column id="888" parent="406" name="item">
       <DataType>varchar(500)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="856" parent="403" name="quantity">
+    <column id="889" parent="406" name="quantity">
       <DataType>varchar(45)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="857" parent="403" name="price">
+    <column id="890" parent="406" name="price">
       <DataType>varchar(45)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="858" parent="403" name="stock_incol">
+    <column id="891" parent="406" name="stock_incol">
       <DataType>varchar(45)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="859" parent="403" name="invoice">
+    <column id="892" parent="406" name="invoice">
       <DataType>varchar(45)|0s</DataType>
       <Position>6</Position>
     </column>
-    <key id="860" parent="403" name="PRIMARY">
+    <key id="893" parent="406" name="PRIMARY">
       <ColNames>idstock_in</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="861" parent="404" name="id">
+    <column id="894" parent="407" name="id">
       <DataType>text|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="862" parent="404" name="title">
+    <column id="895" parent="407" name="title">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="863" parent="404" name="owner">
+    <column id="896" parent="407" name="owner">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="864" parent="404" name="domain">
+    <column id="897" parent="407" name="domain">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="865" parent="404" name="details">
+    <column id="898" parent="407" name="details">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="866" parent="404" name="relative">
+    <column id="899" parent="407" name="relative">
       <DataType>text|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="867" parent="404" name="files">
+    <column id="900" parent="407" name="files">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="868" parent="404" name="status">
+    <column id="901" parent="407" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>8</Position>
     </column>
-    <column id="869" parent="404" name="date_added">
+    <column id="902" parent="407" name="date_added">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="870" parent="404" name="assigned_to">
+    <column id="903" parent="407" name="assigned_to">
       <DataType>int(11)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="871" parent="404" name="taskid">
+    <column id="904" parent="407" name="taskid">
       <AutoIncrement>61</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="872" parent="404" name="device">
+    <column id="905" parent="407" name="device">
       <DataType>text|0s</DataType>
       <Position>12</Position>
     </column>
-    <key id="873" parent="404" name="PRIMARY">
+    <key id="906" parent="407" name="PRIMARY">
       <ColNames>taskid</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="874" parent="405" name="id">
+    <column id="907" parent="408" name="id">
       <AutoIncrement>124</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="875" parent="405" name="title">
+    <column id="908" parent="408" name="title">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="876" parent="405" name="details">
+    <column id="909" parent="408" name="details">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="877" parent="405" name="date">
+    <column id="910" parent="408" name="date">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>4</Position>
     </column>
-    <column id="878" parent="405" name="issue">
+    <column id="911" parent="408" name="issue">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <key id="879" parent="405" name="PRIMARY">
+    <key id="912" parent="408" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="880" parent="406" name="id">
+    <column id="913" parent="409" name="id">
       <AutoIncrement>7</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="881" parent="406" name="app_name">
+    <column id="914" parent="409" name="app_name">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="882" parent="406" name="url">
+    <column id="915" parent="409" name="url">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="883" parent="406" name="username">
+    <column id="916" parent="409" name="username">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="884" parent="406" name="password">
+    <column id="917" parent="409" name="password">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="885" parent="406" name="date_created">
+    <column id="918" parent="409" name="date_created">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <key id="886" parent="406" name="PRIMARY">
+    <key id="919" parent="409" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="887" parent="407" name="id">
+    <column id="920" parent="410" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="888" parent="407" name="desc">
+    <column id="921" parent="410" name="desc">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="889" parent="407" name="PRIMARY">
+    <key id="922" parent="410" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="890" parent="408" name="id">
+    <column id="923" parent="411" name="id">
       <AutoIncrement>9</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="891" parent="408" name="app">
+    <column id="924" parent="411" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="892" parent="408" name="date_installed">
+    <column id="925" parent="411" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="893" parent="408" name="status">
+    <column id="926" parent="411" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="894" parent="408" name="PRIMARY">
+    <key id="927" parent="411" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="895" parent="409" name="id">
+    <column id="928" parent="412" name="id">
       <AutoIncrement>4</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="896" parent="409" name="app">
+    <column id="929" parent="412" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="897" parent="409" name="date_installed">
+    <column id="930" parent="412" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="898" parent="409" name="status">
+    <column id="931" parent="412" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="899" parent="409" name="PRIMARY">
+    <key id="932" parent="412" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="900" parent="410" name="id">
+    <column id="933" parent="413" name="id">
       <AutoIncrement>8</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="901" parent="410" name="app">
+    <column id="934" parent="413" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="902" parent="410" name="date_installed">
+    <column id="935" parent="413" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="903" parent="410" name="status">
+    <column id="936" parent="413" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="904" parent="410" name="PRIMARY">
+    <key id="937" parent="413" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="905" parent="411" name="id">
+    <column id="938" parent="414" name="id">
       <AutoIncrement>2</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="906" parent="411" name="app">
+    <column id="939" parent="414" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="907" parent="411" name="date_installed">
+    <column id="940" parent="414" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="908" parent="411" name="status">
+    <column id="941" parent="414" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="909" parent="411" name="PRIMARY">
+    <key id="942" parent="414" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="910" parent="412" name="id">
+    <column id="943" parent="415" name="id">
       <AutoIncrement>2</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="911" parent="412" name="app">
+    <column id="944" parent="415" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="912" parent="412" name="date_installed">
+    <column id="945" parent="415" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="913" parent="412" name="status">
+    <column id="946" parent="415" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="914" parent="412" name="PRIMARY">
+    <key id="947" parent="415" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="915" parent="413" name="id">
+    <column id="948" parent="416" name="id">
       <AutoIncrement>6</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="916" parent="413" name="app">
+    <column id="949" parent="416" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="917" parent="413" name="date_installed">
+    <column id="950" parent="416" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="918" parent="413" name="status">
+    <column id="951" parent="416" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="919" parent="413" name="PRIMARY">
+    <key id="952" parent="416" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="920" parent="414" name="id">
+    <column id="953" parent="417" name="id">
       <AutoIncrement>3</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="921" parent="414" name="app">
+    <column id="954" parent="417" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="922" parent="414" name="date_installed">
+    <column id="955" parent="417" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="923" parent="414" name="status">
+    <column id="956" parent="417" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="924" parent="414" name="PRIMARY">
+    <key id="957" parent="417" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="925" parent="415" name="id">
+    <column id="958" parent="418" name="id">
       <AutoIncrement>2</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="926" parent="415" name="app">
+    <column id="959" parent="418" name="app">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="927" parent="415" name="date_installed">
+    <column id="960" parent="418" name="date_installed">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="928" parent="415" name="status">
+    <column id="961" parent="418" name="status">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <key id="929" parent="415" name="PRIMARY">
+    <key id="962" parent="418" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="930" parent="416" name="id">
+    <column id="963" parent="419" name="id">
       <AutoIncrement>41</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="931" parent="416" name="user_id">
+    <column id="964" parent="419" name="user_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="932" parent="416" name="username">
+    <column id="965" parent="419" name="username">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="933" parent="416" name="func">
+    <column id="966" parent="419" name="func">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="934" parent="416" name="date_logged">
+    <column id="967" parent="419" name="date_logged">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="935" parent="416" name="id">
+    <index id="968" parent="419" name="id">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="936" parent="416" name="id">
+    <key id="969" parent="419" name="id">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>
-    <column id="937" parent="417" name="id">
+    <column id="970" parent="420" name="id">
       <AutoIncrement>97</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="938" parent="417" name="ual">
+    <column id="971" parent="420" name="ual">
       <Comment>User Access Level</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="939" parent="417" name="first_name">
+    <column id="972" parent="420" name="first_name">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="940" parent="417" name="last_name">
+    <column id="973" parent="420" name="last_name">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="941" parent="417" name="username">
+    <column id="974" parent="420" name="username">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="942" parent="417" name="email">
+    <column id="975" parent="420" name="email">
       <DataType>text|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="943" parent="417" name="phone">
+    <column id="976" parent="420" name="phone">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="944" parent="417" name="extension">
+    <column id="977" parent="420" name="extension">
       <DataType>text|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="945" parent="417" name="gender">
+    <column id="978" parent="420" name="gender">
       <DataType>text|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="946" parent="417" name="token">
+    <column id="979" parent="420" name="token">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="947" parent="417" name="user_type">
+    <column id="980" parent="420" name="user_type">
       <DataType>text|0s</DataType>
       <Position>11</Position>
     </column>
-    <column id="948" parent="417" name="password_reset">
+    <column id="981" parent="420" name="password_reset">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="949" parent="417" name="acct_disabled">
+    <column id="982" parent="420" name="acct_disabled">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="950" parent="417" name="acct_del">
+    <column id="983" parent="420" name="acct_del">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="951" parent="417" name="theme">
+    <column id="984" parent="420" name="theme">
       <DataType>text|0s</DataType>
       <Position>15</Position>
     </column>
-    <column id="952" parent="417" name="date_created">
+    <column id="985" parent="420" name="date_created">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>16</Position>
     </column>
-    <column id="953" parent="417" name="last_seen">
+    <column id="986" parent="420" name="last_seen">
       <DataType>timestamp|0s</DataType>
       <Position>17</Position>
     </column>
-    <column id="954" parent="417" name="login_count">
+    <column id="987" parent="420" name="login_count">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>18</Position>
     </column>
-    <column id="955" parent="417" name="locked_time">
+    <column id="988" parent="420" name="locked_time">
       <DataType>datetime|0s</DataType>
       <Position>19</Position>
     </column>
-    <column id="956" parent="417" name="online">
+    <column id="989" parent="420" name="online">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>20</Position>
     </column>
-    <column id="957" parent="417" name="company">
+    <column id="990" parent="420" name="company">
       <DataType>text|0s</DataType>
       <Position>21</Position>
     </column>
-    <column id="958" parent="417" name="branch">
+    <column id="991" parent="420" name="branch">
       <DataType>text|0s</DataType>
       <Position>22</Position>
     </column>
-    <column id="959" parent="417" name="position">
+    <column id="992" parent="420" name="position">
       <DataType>text|0s</DataType>
       <Position>23</Position>
     </column>
-    <column id="960" parent="417" name="dp">
+    <column id="993" parent="420" name="dp">
       <DataType>text|0s</DataType>
       <Position>24</Position>
     </column>
-    <column id="961" parent="417" name="storage_quota">
+    <column id="994" parent="420" name="storage_quota">
       <DataType>text|0s</DataType>
       <Position>25</Position>
     </column>
-    <column id="962" parent="417" name="account_config">
+    <column id="995" parent="420" name="account_config">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>26</Position>
     </column>
-    <column id="963" parent="417" name="first_login">
+    <column id="996" parent="420" name="first_login">
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
       <Position>27</Position>
     </column>
-    <key id="964" parent="417" name="PRIMARY">
+    <key id="997" parent="420" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="965" parent="418" name="id">
+    <column id="998" parent="421" name="id">
       <AutoIncrement>4</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="966" parent="418" name="description">
+    <column id="999" parent="421" name="description">
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="967" parent="418" name="level">
+    <column id="1000" parent="421" name="level">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <index id="968" parent="418" name="id_UNIQUE">
+    <index id="1001" parent="421" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="969" parent="418" name="PRIMARY">
+    <key id="1002" parent="421" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="970" parent="418" name="id_UNIQUE">
+    <key id="1003" parent="421" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="971" parent="419" name="idfiles">
+    <column id="1004" parent="422" name="idfiles">
       <AutoIncrement>10</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="972" parent="419" name="spec_id">
+    <column id="1005" parent="422" name="spec_id">
       <DataType>varchar(45)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="973" parent="419" name="title">
+    <column id="1006" parent="422" name="title">
       <DataType>varchar(45)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="974" parent="419" name="description">
+    <column id="1007" parent="422" name="description">
       <DataType>text|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="975" parent="419" name="owner">
+    <column id="1008" parent="422" name="owner">
       <DataType>varchar(45)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="976" parent="419" name="date_uploaded">
+    <column id="1009" parent="422" name="date_uploaded">
       <DataType>datetime|0s</DataType>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="977" parent="419" name="file_name">
+    <column id="1010" parent="422" name="file_name">
       <DataType>text|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="978" parent="419" name="file_size">
+    <column id="1011" parent="422" name="file_size">
       <DataType>text|0s</DataType>
       <Position>8</Position>
     </column>
-    <key id="979" parent="419" name="PRIMARY">
+    <key id="1012" parent="422" name="PRIMARY">
       <ColNames>idfiles</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
